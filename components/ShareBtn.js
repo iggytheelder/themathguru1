@@ -1,0 +1,33 @@
+import styles from './Social.module.css'
+import { siteTitle, siteUrl, siteDescription } from '@components/Layout'
+import { useRouter } from 'next/router'
+
+export default function ShareBtn({ social }) {
+  const router = useRouter(); // using this to get pathname
+
+  if (social == "facebook") {
+    return (
+      <button className = {`${styles.share} ${styles.facebook}`}>
+        <a href={"https://www.facebook.com/sharer/sharer.php?u=https://www." + siteUrl + router.pathname}>
+          Share on Facebook
+        </a>
+      </button>
+    );
+  } else if (social == "twitter") {
+    return (
+      <button className = {`${styles.share} ${styles.twitter}`}>
+        <a href = {"http://twitter.com/share?text=" + siteDescription + "&url=https://www." + siteUrl + router.pathname}>
+          Share on Twitter
+        </a>
+      </button>
+    );
+  } else if (social == "linkedin") {
+    return (
+      <button className = {`${styles.share} ${styles.linkedin}`}>
+        <a href = {"https://www.linkedin.com/sharing/share-offsite/?url=https://" + siteUrl + router.pathname}>
+          Share on LinkedIn
+        </a>
+      </button>
+    );
+  }
+}

@@ -1,26 +1,54 @@
-export default function Header({ title }) {
-  return (
-    <>
-      <h1 className="title">{title}</h1>
-      <p>
-        Hi 👋! This template gives you a{" "}
-        <a href="https://nextjs.org/">Next.js</a> app with the scaffolding for{" "}
-        <a href="https://www.netlify.com/products/functions/">
-          Netlify Functions
-        </a>
-        , <a href="https://www.netlify.com/products/forms/">Forms</a>, and{" "}
-        <a href="https://docs.netlify.com/routing/redirects/">Redirects</a>. Our
-        aim was to give you the code you would need to hit the ground running
-        with a few fun features.
-      </p>
+import Link from 'next/link'
+import styles from './Header.module.css'
 
-      <p>
-        You can find the code for this project on GitHub at{" "}
-        <a href="https://github.com/netlify-templates/nextjs-toolbox">
-          https://github.com/netlify-templates/nextjs-toolbox
-        </a>
-        ! Happy coding!
-      </p>
-    </>
-  );
+export default function Header() {
+  return (
+    <header className = {styles.header}>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/">
+              <a>The Math Guru</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/seek">
+              <a>Seek</a>
+            </Link>
+          </li>
+          <li>
+            {/*
+            <Link href="/pricing">
+              <a>Pricing</a>
+            </Link>
+            */}
+          </li>
+          <li>
+            <Link href="/become">
+              <a>Become</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/teach">
+              <a>Teach</a>
+            </Link>
+          </li>
+          {/*
+          <li>
+            <Link href="/contact">
+              <a>Contact</a>
+            </Link>
+          </li>
+          */}
+          {/*
+          <li>
+            <Link href="/login">
+              <a>Login</a>
+            </Link>
+          </li>
+          */}
+        </ul>
+      </nav>
+    </header>
+  )
 }

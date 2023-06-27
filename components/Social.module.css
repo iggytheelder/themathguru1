@@ -1,0 +1,21 @@
+/* Style all font awesome icons */
+.share {
+  padding: 0px;
+}
+
+.share a {
+  color: white;
+  padding: 10px;
+}
+
+.facebook {
+  background: #3B5998;
+}
+
+.twitter {
+  background: #55ACEE;
+}
+
+.linkedin {
+  background: #007bb5;
+}

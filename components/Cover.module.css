@@ -1,0 +1,10 @@
+.coverImage {
+  border-radius: 55px;
+  width: 100%;
+}
+
+.coverDiv {
+  border-radius: 55px;
+  box-shadow: 0px 0px 10px #FE9774;
+  line-height: 0%;
+}

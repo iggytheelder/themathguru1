@@ -1,0 +1,22 @@
+.header {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.header a {
+  color: black;
+  margin-right: 30px;
+}
+
+.header nav {
+  text-align: center;
+  flex-direction: column;
+}
+
+.header nav ul {
+  margin: 0px;
+}
+
+.header nav li {
+  display: inline-flex;
+}
