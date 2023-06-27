@@ -6,7 +6,7 @@ import Layout, { siteTitle } from '@components/Layout'
 export default function Blog() {
   return (
     <Layout>
-      <h1>Blog</h1>
+      <h1 className = "title">Blog</h1>
       <p>
         Coming soon you will be able to read the most incredible articles written by our Math Gurus.
       </p>

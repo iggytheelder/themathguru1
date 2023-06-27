@@ -8,7 +8,7 @@ import ContactForm from '@components/ContactForm'
 export default function Contact() {
   return (
     <Layout>
-      <h1>Contact</h1>
+      <h1 className = "title">Contact</h1>
       <p>
         Communicate with us through call, text, or email.
       </p>

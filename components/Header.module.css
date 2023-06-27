@@ -1,11 +1,13 @@
 .header {
   margin-bottom: 20px;
-  font-size: 18px;
+  padding: 20px;
+  background-color: #FE9774;
+  border-radius: 55px;
 }
 
 .header a {
-  color: black;
-  margin-right: 30px;
+  color: white;
+  font-weight: bold;
 }
 
 .header nav {
@@ -14,9 +16,16 @@
 }
 
 .header nav ul {
-  margin: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header nav li {
   display: inline-flex;
+  list-style-type: none;
+}
+
+.spaceRight {
+  padding-right: 30px;
 }

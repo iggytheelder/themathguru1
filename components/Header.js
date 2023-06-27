@@ -8,12 +8,12 @@ export default function Header() {
         <ul>
           <li>
             <Link href="/">
-              <a>The Math Guru</a>
+              <a className = {styles.spaceRight}>THE MATH GURU</a>
             </Link>
           </li>
           <li>
             <Link href="/seek">
-              <a>Seek</a>
+              <a className = {styles.spaceRight}>SEEK</a>
             </Link>
           </li>
           <li>
@@ -25,12 +25,12 @@ export default function Header() {
           </li>
           <li>
             <Link href="/become">
-              <a>Become</a>
+              <a className = {styles.spaceRight}>BECOME</a>
             </Link>
           </li>
           <li>
             <Link href="/blog">
-              <a>Blog</a>
+              <a>BLOG</a>
             </Link>
           </li>
           {/*

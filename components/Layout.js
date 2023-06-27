@@ -25,7 +25,6 @@ export default function Layout({ page, children }) {
           {children}
         </main>
         <Footer page = {page}/>
-
         <Script
             id="tally-js"
             src="https://tally.so/widgets/embed.js"

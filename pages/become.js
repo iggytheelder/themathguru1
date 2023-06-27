@@ -4,10 +4,10 @@ import Script from 'next/script'
 import Layout, { siteTitle } from '@components/Layout'
 import JoinForm from '@components/JoinForm';
 
-export default function BecomeAMathGuru() {
+export default function Become() {
   return (
     <Layout>
-      <h1>Become a Math Guru</h1>
+      <h1 className = "title">Become a Math Guru</h1>
       <p>
         We are searching for mathy people like you to become a Math Guru to students near you.
         This is for you if you want to help kids learn math.

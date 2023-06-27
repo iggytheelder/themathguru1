@@ -11,15 +11,13 @@ import JokeBlock from "@components/JokeBlock";
 export default function Home() {
   return (
     <Layout>
-      <h1>The Math Guru</h1>
+      <h1 className = "title">The Math Guru</h1>
       <p>
         Welcome to The Math Guru! We are a math tutoring service. Feel free to <Link href={"/contact"}><a>Contact</a></Link> us.
       </p>
       <h2>How It Works</h2>
       <p>
-        If you are a student looking for a math tutor, go to <Link href="/seek"><a>Seek</a></Link> to view our available tutors.
-        If time is limited, you may schedule your first consultation without a consultation call.
-        You have the option to schedule a free consultation call to make sure you both vibe.
+        If you are a student looking for a math tutor, go to <Link href="/seek"><a>Seek</a></Link>.
       </p>
       <p>
         If you are a mathy person, interested in tutoring students in math, go to <Link href="/become"><a>Become</a></Link>.
