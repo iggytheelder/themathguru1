@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image'
-import Layout from '@components/layout';
+import Layout from '@components/Layout';
 import Date from '@components/date';
 import ShareBtn from '@components/ShareBtn';
 
