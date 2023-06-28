@@ -1,4 +1,4 @@
-.footer {
+.newsletter {
   width: 100%;
   max-width: 800px;
   margin:auto;
@@ -6,4 +6,25 @@
   border-radius: 55px;
   box-shadow: 0px 0px 10px rgb(10,10,10,.3);
   margin-top: 40px;
+}
+
+.footerNav {
+  position:relative;
+  margin-top: 50px;
+  text-align: center;
+}
+.right {
+  position:absolute;
+  text-align: right;
+}
+
+.left {
+  position:absolute;
+  text-align: left;
+}
+.right {
+  right:0;
+}
+.left{
+  left:0;
 }
