@@ -30,7 +30,7 @@ export default function Header() {
           */}
           <li>
             <Link href="/seek">
-              <a className = {styles.spaceRight}>SEEK</a>
+              <a className = {styles.spaceRight}>Seek</a>
             </Link>
           </li>
           <li>
@@ -42,12 +42,12 @@ export default function Header() {
           </li>
           <li>
             <Link href="/become">
-              <a className = {styles.spaceRight}>BECOME</a>
+              <a className = {styles.spaceRight}>Become</a>
             </Link>
           </li>
           <li>
             <Link href="/blog">
-              <a>BLOG</a>
+              <a>Blog</a>
             </Link>
           </li>
           {/*

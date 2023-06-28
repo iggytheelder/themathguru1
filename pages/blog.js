@@ -22,10 +22,10 @@ export default function Blog({ allPostsData }) {
       <p style={{textAlign: "center"}}>
         A collection of math writings that are designed to be timeless.
       </p>
-      <section>
-        <ul>
+      <section style={{textAlign: "center"}}>
+        <ul style={{padding:"0"}}>
           {allPostsData.map(({ id, date, title, author }) => (
-            <li key={id} class = "nobullet">
+            <li key={id} style={{listStyleType: "none", margin: "0"}}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>

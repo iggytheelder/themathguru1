@@ -63,7 +63,7 @@ export default function Post({ postData }) {
         <p style={{textAlign:"center"}}>
           <ShareBtn social = "facebook" postID = {postData.id}></ShareBtn> <ShareBtn social = "twitter" postID = {postData.id}></ShareBtn> <ShareBtn social = "linkedin" postID = {postData.id}></ShareBtn>
         </p>
-        <p>
+        <p style={{textAlign: "center"}}>
           <Link href="/blog">
             <a>← Back to Blog</a>
           </Link>

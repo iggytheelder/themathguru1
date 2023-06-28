@@ -17,8 +17,6 @@ export default function Newsletter() {
       </p>
       <p>
         We will never sell your data.
-      </p>
-      <p>
         Opt out anytime.
       </p>
       <NewsletterForm></NewsletterForm>
