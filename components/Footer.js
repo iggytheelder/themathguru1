@@ -23,13 +23,13 @@ export default function Footer({ page }) {
           <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
           */}
           </div>
-          <div class={styles.footerNav}>
-            <div class={styles.left}>
+          <div className={styles.footerNav}>
+            <div className={styles.left}>
               <Link href="/"><a>The Math Guru</a></Link><br/>
               <Link href="/seek"><a>Find a Tutor</a></Link><br/>
               <Link href="/become"><a>Become a Tutor</a></Link>
             </div>
-            <div class={styles.right}>
+            <div className={styles.right}>
               <Link href="/blog"><a>Blog</a></Link><br/>
               <Link href="/newsletter"><a>Newsletter</a></Link><br/>
               <Link href="/contact"><a>Contact</a></Link>

@@ -1,13 +1,12 @@
 .banner {
-  position: fixed;
+  position: relative;
   text-align: center;
-  top: 10px;
   padding: 10px;
-  background-color: #C9689B;
+  background-color: #FE9774;
   color: white;
   opacity: 0.9;
-  width: 100%;
   font-weight: bold;
+  width: 100%;
   z-index: 1;
   font-size: 20px;
 }

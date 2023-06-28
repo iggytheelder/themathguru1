@@ -1,16 +1,17 @@
 .header {
   margin-bottom: 20px;
-  padding: 20px;
-  background-color: #FE9774;
+  background-color: none;
   border-radius: 55px;
+  margin-top: -50px;
 }
 
 .header a {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
 .header nav {
+  transform: translate(0, -25px);
   text-align: center;
   flex-direction: column;
 }

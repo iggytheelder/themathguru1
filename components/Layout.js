@@ -20,7 +20,7 @@ export default function Layout({ page, children }) {
           <title>{siteTitle}</title>
         </Head>
         <Header/>
-        <Cover/>
+        {/*<Cover/>*/}
         <main>
           {children}
         </main>
