@@ -16,7 +16,10 @@ export default function Contact() {
         Leave us with your information and a short message. We will get back to you as soon as possible.
       </p>
       <p>
-        If you're contacting us to inquire about joining as a tutor, go to <Link href="/join"><a>Join</a></Link>.
+        If you're contacting us to inquire about joining as a tutor, go to <Link href="/become"><a>Become</a></Link>.
+      </p>
+      <p>
+        If you're contacting us to inquire about hiring a tutor, go to <Link href="/seek"><a>Seek</a></Link>.
       </p>
       <ContactForm/>
     </Layout>

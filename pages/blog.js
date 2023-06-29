@@ -20,7 +20,7 @@ export default function Blog({ allPostsData }) {
     <Layout>
       <h1 className = "title">Blog</h1>
       <p style={{textAlign: "center"}}>
-        A collection of math writings that are designed to be timeless.
+        A collection of timeless math writings.
       </p>
       <section style={{textAlign: "center"}}>
         <ul style={{padding:"0"}}>

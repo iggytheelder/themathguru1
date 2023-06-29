@@ -16,6 +16,9 @@ export default function Newsletter() {
         After the launch, you'll get notified when we have something really special to share with you.
       </p>
       <p>
+        We plan to send an update about once a month.
+      </p>
+      <p>
         We will never sell your data.
         Opt out anytime.
       </p>

@@ -31,14 +31,16 @@ export default function Post({ postData }) {
         <meta name="description" content={postData.description}/>
       </Head>
       <article>
-        <h1 style={{textAlign: "center"}}>{postData.title}</h1>
+        <h1 style={{textAlign: "center"}}>
+          {postData.title}
+          {postData.subtitle ? <span style={{color: "rgb(10,10,10,.6)"}}>{" " + postData.subtitle}</span> : ""}
+        </h1>
         <p style={{textAlign: "center"}}>
         {
           /*
           postData.imageFileName ? <Image src = {"/blog/" + postData.imageFileName} layout="responsive" width={postData.imageWidth} height={postData.imageHeight} alt={postData.imageFileName}/>: ""
           */
         }
-        {postData.subtitle ? <h2>{postData.subtitle}</h2>: ""}
         {/*
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
@@ -56,19 +58,23 @@ export default function Post({ postData }) {
         </p>
       </div>
       */}
-      <div>
         <p>
-          If you enjoyed this article, please consider sharing with your network.
+          Thank you for reading. Go to <Link href="/seek"><a>Seek</a></Link> if you need a Math Guru.
         </p>
         <p style={{textAlign:"center"}}>
-          <ShareBtn social = "facebook" postID = {postData.id}></ShareBtn> <ShareBtn social = "twitter" postID = {postData.id}></ShareBtn> <ShareBtn social = "linkedin" postID = {postData.id}></ShareBtn>
-        </p>
-        <p style={{textAlign: "center"}}>
           <Link href="/blog">
             <a>← Back to Blog</a>
           </Link>
         </p>
-      </div>
+        <p>
+          If you enjoyed this article, please consider sharing.
+          With your help, we can help children everywhere find thier love for math.
+        </p>
+        <p style={{textAlign:"center"}}>
+          <ShareBtn social = "facebook" postID = {postData.id}></ShareBtn>
+          <ShareBtn social = "twitter" postID = {postData.id}></ShareBtn>
+          <ShareBtn social = "linkedin" postID = {postData.id}></ShareBtn>
+        </p>
     </Layout>
   );
 }

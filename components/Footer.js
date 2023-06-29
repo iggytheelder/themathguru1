@@ -11,12 +11,8 @@ export default function Footer({ page }) {
           <div className={styles.newsletter}>
             <h3>Newsletter</h3>
             <p>
-              We will be lauching on August 25, 2023.
-              Sign up to get special lauch offers and ways to get involved with math education.
-              After the launch, you'll get notified when we have something really special to share with you.
-            </p>
-            <p>
-              <Link href = "/newsletter"><a>Learn More</a></Link>
+              We will be lauching on August 25, 2023. Sign up to get special lauch offers and ways to get involved with math education. After the launch, you'll get notified when we have something really special to share with you.
+              {' '}<Link href = "/newsletter"><a>Learn More</a></Link>
             </p>
             <NewsletterForm/>
           {/*
