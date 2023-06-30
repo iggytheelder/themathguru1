@@ -1,8 +1,8 @@
 ---
-title: 'Unlocking the Power of The Math Guru'
-subtitle: 'Empowering Students through Personalized Learning'
+title: 'Unlocking the Mathematical Mind'
+subtitle: 'Methods of The Math Guru'
 date: '2023-06-28'
-description: 'Discover the transformative power of The Math Guru in this insightful article. Explore how the social nature of learning math, coupled with the importance of personalized support, drives the demand for exceptional tutors. Delve into the role of The Math Guru in transforming mindsets, shifting math anxiety to math enthusiasm. Learn how a dedicated platform connects students with the right tutor, empowering them to shape their mathematical journey with confidence and paving the way for a bright mathematical future. Unleash the potential within with The Math Guru.'
+excerpt: 'A Math Guru is a tutor that helps students navigate the complexities of mathematics, unraveling its mysteries and illuminating the way forward.'
 author: 'Caleb Ignace'
 ---
 

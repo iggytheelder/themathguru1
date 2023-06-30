@@ -13,27 +13,19 @@ export default function Home() {
     <Layout>
       <h1 className = "title">The Math Guru</h1>
       <p>
-        Welcome to The Math Guru! We are a math tutoring service. Feel free to <Link href={"/contact"}><a>Contact</a></Link> us.
-      </p>
-      <h2>How It Works</h2>
-      <p>
-        If you are a student looking for a math tutor, go to <Link href="/seek"><a>Seek</a></Link>.
+        Welcome to The Math Guru! We are a math tutoring service.
       </p>
       <p>
-        If you are a mathy person, interested in tutoring students in math, go to <Link href="/become"><a>Become</a></Link>.
+        <Link href="/seek"><a>Seek</a></Link> and you will find a Math Guru.
+        We will connect you with a qualitfied math expert to assist your student in their math class.
+        We encourage you to schedule some time to talk with your tutor before booking a session.
       </p>
-      <h2>Mission and Vision</h2>
       <p>
         It is our belief that most people's difficulty with math is in their heads.
         We want to help students overcome their self-limiting beliefs.
+        Continue reading <Link href = "/posts/unlocking-the-mathematical-mind"><a>Unlocking The Methods of the Mathematical Mind: Methods of the Math Guru</a></Link>.
       </p>
-      <p>
-        We exist to connect students with their Math Guru, a tutor that will transform their
-        relationship with math from "I'm bad at math" to "I love math."
-      </p>
-      <p>
-        Of course, booking a session is the best way to support us if you're taking a math class.
-      </p>
+      {/*
       <p>
         If you're not taking a math class, share our services with your friends who are taking math classes.
       </p>
@@ -42,7 +34,7 @@ export default function Home() {
         like and follow <a href="https://www.facebook.com/themathgurututoring">The Math Guru Facebook page</a>,
         or subscribe to our Newsletter at the bottom of this page.
       </p>
-      <h2>Brief History</h2>
+      */}
       <p>
         Founded in Tempe, AZ in 2021. We now serve student everywhere.
         The Math Guru started as out on the founder's <a href = "https://www.calebignace.com/tutoring" target="blank_">personal web page</a>, which you can still view.

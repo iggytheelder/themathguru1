@@ -12,7 +12,6 @@ export default function Header() {
             <Link href="/">
               <a>
                 <Image
-                  onClick = {console.log("hello")}
                   src="/logo-500.png"
                   width={70}
                   height={70}

@@ -28,12 +28,12 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <meta name="description" content={postData.description}/>
+        <meta name="description" content={postData.except}/>
       </Head>
       <article>
-        <h1 style={{textAlign: "center"}}>
-          {postData.title}
-          {postData.subtitle ? <span style={{color: "rgb(10,10,10,.6)"}}>{" " + postData.subtitle}</span> : ""}
+        <h1 style={{textAlign: "center", marginBottom: "0"}}>
+          {postData.title}<br/>
+          {postData.subtitle ? <span className="subtitle">{" " + postData.subtitle}</span> : ""}
         </h1>
         <p style={{textAlign: "center"}}>
         {
@@ -58,23 +58,29 @@ export default function Post({ postData }) {
         </p>
       </div>
       */}
-        <p>
-          Thank you for reading. Go to <Link href="/seek"><a>Seek</a></Link> if you need a Math Guru.
+        <div>
+        <p style={{textAlign: "center"}}>
+          <span class="dot"></span>{' '}
+          <span class="dot"></span>{' '}
+          <span class="dot"></span>
         </p>
-        <p style={{textAlign:"center"}}>
+        {/*
+        <p style={{textAlign: "center"}}>
           <Link href="/blog">
             <a>← Back to Blog</a>
           </Link>
         </p>
+        */}
         <p>
           If you enjoyed this article, please consider sharing.
-          With your help, we can help children everywhere find thier love for math.
+          With your help, we can help children everywhere overcome their anxiety and find thier love for math.
         </p>
-        <p style={{textAlign:"center"}}>
+        <p style={{textAlign: "center"}}>
           <ShareBtn social = "facebook" postID = {postData.id}></ShareBtn>
           <ShareBtn social = "twitter" postID = {postData.id}></ShareBtn>
           <ShareBtn social = "linkedin" postID = {postData.id}></ShareBtn>
         </p>
+        </div>
     </Layout>
   );
 }

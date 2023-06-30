@@ -19,23 +19,21 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout>
       <h1 className = "title">Blog</h1>
+      {/*
       <p style={{textAlign: "center"}}>
         A collection of timeless math writings.
       </p>
-      <section style={{textAlign: "center"}}>
+      */}
+      <section style={{textAlign: "left"}}>
         <ul style={{padding:"0"}}>
-          {allPostsData.map(({ id, date, title, author }) => (
-            <li key={id} style={{listStyleType: "none", margin: "0"}}>
-              <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              {' '}
+          {allPostsData.map(({ id, date, title, subtitle, author, excerpt }) => (
+            <li key={id} style={{listStyleType: "none", marginLeft: "0px"}}>
+              <h4 style={{marginBottom: "5px"}}>{title}:{' '}<span className = "subtitle">{subtitle}</span></h4>
               <small>
-                by {author}
-                {' '}
-                &#x2022;
-                {' '}
-                <Date dateString={date} />
+                {excerpt}..{' '}
+                <Link href={`/posts/${id}`}>
+                  <a>Continue Reading</a>
+                </Link>
               </small>
             </li>
           ))}
