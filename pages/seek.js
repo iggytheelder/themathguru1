@@ -37,11 +37,11 @@ export default function Seek({ localTutorData }) {
          <ul style={{padding: "0"}}>
            {localTutorData.map(({ id, name, imageName, experience, education, email, phone, message }) => (
              <li key={id} className = "tutor">
-               <div style={{borderRadius: '100px', border:"solid 3px black", width: "200px", height: "200px", margin: "auto"}}>
+               <div style={{borderRadius: '100px', border:"solid 3px black", width: "150px", height: "150px", margin: "auto"}}>
                  <Image
                    src={"/tutors/" + imageName}
-                   width = {200}
-                   height = {200}
+                   width = {150}
+                   height = {150}
                    alt="logo"
                    style={{borderRadius: '100px'}}
                  />
@@ -50,43 +50,49 @@ export default function Seek({ localTutorData }) {
                  <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
                */}
                <h3 style={{textAlign: "center"}}>{name}</h3>
-               <div style={{textAlign: "center"}}>
-                <a href={"sms:"+phone}>
+                 <div style={{textAlign: "center"}}>
+                  <small>
+                  <a href={"tel:" + phone} className = "contacting">{phone}</a><br/>
+                  <a href={"mailto: " + email} className = "contacting">{email}</a>
+                  </small>
+                 </div>
+                 {/*
+               <div style={{textAlign: "center", marginBottom: "-10px"}}>
+                <a href={"tel:" + phone}>
                   <Image
-                    src="/social/chat.png"
-                    width={40}
-                    height = {40}
+                    src="/social/call.png"
+                    width={50}
+                    height = {50}
                     alt="call"
                   />
                 </a>
-                <a href={"tel:" + phone}>
-                   <Image
-                     src="/social/call.png"
-                     width={40}
-                     height = {40}
-                     alt="call"
-                   />
-                 </a>{' '}
-                 <div style={{display: "inline-block", transform: "translate(0,-12px)"}}>{phone}</div><br/>
-                 <a href={"mailto: " + email} target="blank_">
+                  <a href={"sms:"+phone}>
                     <Image
-                      src="/social/email.png"
-                      width={40}
-                      height = {40}
-                      alt="email"
+                      src="/social/chat.png"
+                      width={50}
+                      height = {50}
+                      alt="call"
                     />
-                  </a>{' '}
-                  <div style={{display: "inline-block", transform: "translate(0,-12px)"}}>{email}</div>
+                  </a>
+                  <a href={"mailto: " + email} target="blank_">
+                   <Image
+                     src="/social/email.png"
+                     width={50}
+                     height = {50}
+                     alt="email"
+                   />
+                 </a>
                </div>
+               */}
                <p>
                </p>
                <p>
-                {message}
+                <small>{message}</small>
                </p>
-               <h4>Education</h4>
-               {experience.map((e, i) => <p key = {String(id) + "exp" + String(i)}>{e}</p>)}
                <h4>Experience</h4>
-               {education.map((e, i) => <p key = {String(id) + "edu" + String(i)}>{e}</p>)}
+               <ul><small>{experience.map((e, i) => <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>{e}</li>)}</small></ul>
+               <h4>Education</h4>
+               <ul><small>{education.map((e, i) => <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>{e}</li>)}</small></ul>
              </li>
            ))}
          </ul>

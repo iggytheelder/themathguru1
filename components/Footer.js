@@ -9,7 +9,7 @@ export default function Footer({ page }) {
   if (page != "newsletter") {
     return (
       <>
-        <footer>
+        <footer className = {styles.footer}>
           <div className={styles.newsletter}>
             <h3>Newsletter</h3>
             <p>

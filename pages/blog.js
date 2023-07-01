@@ -28,7 +28,7 @@ export default function Blog({ allPostsData }) {
         <ul style={{padding:"0"}}>
           {allPostsData.map(({ id, date, title, subtitle, author, excerpt }) => (
             <li key={id} style={{listStyleType: "none", marginLeft: "0px"}}>
-              <h4 style={{marginBottom: "5px"}}>{title}:{' '}<span className = "subtitle">{subtitle}</span></h4>
+              <h4 style={{marginBottom: "0px", margin:"0px"}}>{title}:{' '}<span className = "subtitle">{subtitle}</span></h4>
               <small>
                 {excerpt}..{' '}
                 <Link href={`/posts/${id}`}>
