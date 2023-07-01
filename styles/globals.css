@@ -59,3 +59,11 @@ p {
 .subtitle {
   color: rgb(10,10,10,.6);
 }
+
+.tutor {
+  list-style-type: "";
+  border: solid 0px black;
+  padding: 30px;
+  border-radius: 55px;
+  box-shadow: 1px 1px 10px 1px rgb(10,10,10,0.6);
+}

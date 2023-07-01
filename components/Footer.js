@@ -2,6 +2,8 @@ import styles from './Footer.module.css'
 import NewsletterForm from '@components/NewsletterForm'
 import ShareBtn from '@components/ShareBtn'
 import Link from 'next/link'
+import SocialLinks from '@components/SocialLinks'
+
 
 export default function Footer({ page }) {
   if (page != "newsletter") {
@@ -20,6 +22,9 @@ export default function Footer({ page }) {
           */}
           </div>
           <div className={styles.footerNav}>
+            <div style={{marginBottom: "30px"}}>
+              <SocialLinks size = "50"></SocialLinks>
+            </div>
             <div className={styles.left}>
               <Link href="/"><a>The Math Guru</a></Link><br/>
               <Link href="/seek"><a>Find a Tutor</a></Link><br/>

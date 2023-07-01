@@ -12,7 +12,7 @@ export default function ShareBtn({ social, postID}) {
 
   if (social == "facebook") {
     return (
-      <button className = {`${styles.share} ${styles.facebook}`}>
+      <button className = {`${styles.share} ${styles.facebook} ${styles.spaceRight}`}>
         <a href={"https://www.facebook.com/sharer/sharer.php?u=https://www." + siteUrl + path} target="blank_">
           Share on Facebook
         </a>
@@ -20,7 +20,7 @@ export default function ShareBtn({ social, postID}) {
     );
   } else if (social == "twitter") {
     return (
-      <button className = {`${styles.share} ${styles.twitter}`}>
+      <button className = {`${styles.share} ${styles.twitter} ${styles.spaceRight}`}>
         <a href = {"http://twitter.com/share?text=" + siteDescription + "&url=https://www." + siteUrl + path} target="blank_">
           Share on Twitter
         </a>

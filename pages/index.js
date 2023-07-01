@@ -23,7 +23,7 @@ export default function Home() {
       <p>
         It is our belief that most people's difficulty with math is in their heads.
         We want to help students overcome their self-limiting beliefs.
-        Continue reading <Link href = "/posts/unlocking-the-mathematical-mind"><a>Unlocking The Methods of the Mathematical Mind: Methods of the Math Guru</a></Link>.
+        Read our <Link href = "/posts/unlocking-the-mathematical-mind"><a>white paper</a></Link>.
       </p>
       {/*
       <p>

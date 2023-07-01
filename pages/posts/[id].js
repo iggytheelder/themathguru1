@@ -60,9 +60,9 @@ export default function Post({ postData }) {
       */}
         <div>
         <p style={{textAlign: "center"}}>
-          <span class="dot"></span>{' '}
-          <span class="dot"></span>{' '}
-          <span class="dot"></span>
+          <span className="dot"></span>{' '}
+          <span className="dot"></span>{' '}
+          <span className="dot"></span>
         </p>
         {/*
         <p style={{textAlign: "center"}}>
