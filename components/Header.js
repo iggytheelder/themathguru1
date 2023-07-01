@@ -45,6 +45,11 @@ export default function Header() {
             </Link>
           </li>
           <li>
+            <Link href="/lessons">
+              <a className = {styles.spaceRight}>Lessons</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/blog">
               <a>Blog</a>
             </Link>

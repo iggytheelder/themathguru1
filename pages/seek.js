@@ -52,8 +52,8 @@ export default function Seek({ localTutorData }) {
                <h3 style={{textAlign: "center"}}>{name}</h3>
                  <div style={{textAlign: "center"}}>
                   <small>
-                  <a href={"tel:" + phone} className = "contacting">{phone}</a><br/>
-                  <a href={"mailto: " + email} className = "contacting">{email}</a>
+                  <a href={"tel:" + phone} className = "contacting"><button>{phone}</button></a><br/>
+                  <a href={"mailto: " + email} className = "contacting"><button>{email}</button></a>
                   </small>
                  </div>
                  {/*

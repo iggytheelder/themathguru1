@@ -75,11 +75,19 @@ p {
 }
 
 .contacting {
-  color: black;
-  text-decoration: underline;
-  font-weight: 500;
 }
 
-.contacting:hover {
-  color: blue;
+.contacting button {
+  border: none;
+  background-color: rgba(10,10,10,0.05);
+  font-weight: 500;
+  box-shadow: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contacting button:hover {
+  cursor: pointer;
+  background-color: rgba(10,10,10,0.15);
+  opacity: 1;
 }
