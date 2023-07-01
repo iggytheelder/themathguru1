@@ -14,21 +14,4 @@
   position:relative;
   margin-top: 50px;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.right {
-  position:absolute;
-  text-align: right;
-}
-
-.left {
-  position:absolute;
-  text-align: left;
-}
-.right {
-  right:0;
-}
-.left{
-  left:0;
 }

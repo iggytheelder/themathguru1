@@ -23,18 +23,14 @@ export default function Footer({ page }) {
           </div>
           <div className={styles.footerNav}>
             <div style={{marginBottom: "30px"}}>
-              <SocialLinks size = "50"></SocialLinks>
+              <SocialLinks size = "40"></SocialLinks>
             </div>
-            <div className={styles.left}>
               <Link href="/"><a>The Math Guru</a></Link><br/>
-              <Link href="/seek"><a>Find a Tutor</a></Link><br/>
-              <Link href="/become"><a>Become a Tutor</a></Link>
-            </div>
-            <div className={styles.right}>
+              <Link href="/seek"><a>Seek a Tutor</a></Link><br/>
+              <Link href="/become"><a>Become a Tutor</a></Link><br/>
               <Link href="/blog"><a>Blog</a></Link><br/>
               <Link href="/newsletter"><a>Newsletter</a></Link><br/>
               <Link href="/contact"><a>Contact</a></Link>
-            </div>
         </div>
         </footer>
       </>

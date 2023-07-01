@@ -50,9 +50,34 @@ export default function Seek({ localTutorData }) {
                  <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
                */}
                <h3 style={{textAlign: "center"}}>{name}</h3>
-               <p style={{textAlign: "center"}}>
-                {email} &#x2022; {phone}
-               </p>
+               <div style={{textAlign: "center"}}>
+                <a href={"sms:"+phone}>
+                  <Image
+                    src="/social/chat.png"
+                    width={40}
+                    height = {40}
+                    alt="call"
+                  />
+                </a>
+                <a href={"tel:" + phone}>
+                   <Image
+                     src="/social/call.png"
+                     width={40}
+                     height = {40}
+                     alt="call"
+                   />
+                 </a>{' '}
+                 <div style={{display: "inline-block", transform: "translate(0,-12px)"}}>{phone}</div><br/>
+                 <a href={"mailto: " + email} target="blank_">
+                    <Image
+                      src="/social/email.png"
+                      width={40}
+                      height = {40}
+                      alt="email"
+                    />
+                  </a>{' '}
+                  <div style={{display: "inline-block", transform: "translate(0,-12px)"}}>{email}</div>
+               </div>
                <p>
                </p>
                <p>
