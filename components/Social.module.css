@@ -1,8 +1,11 @@
 /* Style all font awesome icons */
 .share {
   padding: 8px 0px 8px 0px;
-  border-radius: 55px;
+  border-radius: 5px;
   font-weight: bold;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .share a {
