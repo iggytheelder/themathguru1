@@ -9,22 +9,26 @@ export default function MathLessons() {
     <Layout>
       <h1 className = "title">Math Lessons</h1>
       <div style={{textAlign:"center"}}>
+      {/*
         <p>
           Explore the visually interactive math lessons created by our Math Gurus.
         </p>
+        */}
         <p>
-          More coming very soon!
+          Sign up to the <Link href = "/newsletter"><a>newsletter</a></Link> to get notified when we add a lesson.
         </p>
         <h2>
-          <Link href="/lessons/algebra"><a>Algebra Lessons</a></Link>
+          <Link href="/lessons/algebra"><a>Algebra</a></Link>
         </h2>
         <p>
+          <Link href="/lessons/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
+        </p>
+        <p>
+          <small>
           Algebra is usually started to be taught in 8th grade.
           Teachers and standard curriculums don't always mention algebra by name.
           They might call the algebra lessons "One Step Equations" or "Two Step Equations."
-        </p>
-        <p>
-          <Link href="/lessons/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
+          </small>
         </p>
       </div>
     </Layout>

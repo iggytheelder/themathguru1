@@ -7,11 +7,6 @@ import ShareBtn from '@components/ShareBtn'
 export default function AlgebraLessons() {
   return (
     <Layout>
-    <p style={{textAlign: "center"}}>
-      <Link href="/lessons/">
-        <a>← Back to Math Lessons</a>
-      </Link>
-    </p>
       <h1 className = "title">Algebra Lessons</h1>
       <div style={{textAlign:"center"}}>
         <p>

@@ -30,11 +30,13 @@ export default function Post({ postData }) {
       <Head>
         <meta name="description" content={postData.except}/>
       </Head>
+      {/*
       <p style={{textAlign: "center"}}>
         <Link href="/blog">
           <a>← Back to Blog</a>
         </Link>
       </p>
+      */}
       <article>
         <h1 style={{textAlign: "center", marginBottom: "0"}}>
           {postData.title}<br/>

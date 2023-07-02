@@ -7,12 +7,7 @@ import ShareBtn from '@components/ShareBtn'
 export default function SolvingForX() {
   return (
     <Layout>
-      <p style={{textAlign: "center"}}>
-        <Link href="/lessons/algebra">
-          <a>← Back to Algebra Lessons</a>
-        </Link><br/>
-      </p>
-      <h1 className = "title">Algebra | Lesson 1: Solving for x</h1>
+      <h1 className = "title"><Link href="/lessons/algebra/"><a>Algebra</a></Link> | Lesson 1: Solving for x</h1>
       <div style={{textAlign:"center"}}>
         <Link href="/seek"><a>Caleb Ignace</a></Link> &#x2022; June 2, 2023
       </div>
