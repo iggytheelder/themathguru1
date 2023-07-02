@@ -1,5 +1,5 @@
 .header {
-  margin-bottom: 20px;
+  margin-bottom: -20px;
   background-color: none;
   border-radius: 55px;
   margin-top: -50px;
@@ -24,8 +24,10 @@
 
 .header nav li {
   display: inline-flex;
+  list-style-type: none;
 }
 
 .spaceRight {
-  padding-right: 30px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }

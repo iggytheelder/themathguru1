@@ -23,7 +23,7 @@ main {
   margin-bottom: 200px;
 }
 
-input, button {
+input {
   font-size: 20px;
   border: solid 1px black;
   border-radius: 5px;
@@ -31,8 +31,20 @@ input, button {
   box-shadow: 2px 2px 5px rgba(4, 0, 0, 0.5);
 }
 
+button {
+  font-size: 20px;
+  border: none;
+  background-color: rgba(10,10,10,0.05);
+  font-weight: 500;
+  box-shadow: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 button:hover {
-  opacity: .7;
+  cursor: pointer;
+  background-color: rgba(10,10,10,0.15);
+  opacity: 1;
 }
 
 a {
@@ -73,24 +85,6 @@ p {
 
 .tutor p, h1, h2, h3, h4 {
   margin: 15px;
-}
-
-.contacting {
-}
-
-.contacting button {
-  border: none;
-  background-color: rgba(10,10,10,0.05);
-  font-weight: 500;
-  box-shadow: none;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-.contacting button:hover {
-  cursor: pointer;
-  background-color: rgba(10,10,10,0.15);
-  opacity: 1;
 }
 
 .center {

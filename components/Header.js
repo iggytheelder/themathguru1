@@ -28,8 +28,13 @@ export default function Header() {
           </li>
           */}
           <li>
+            <Link href="/">
+              <a className = {styles.spaceRight}><button>Home</button></a>
+            </Link>
+          </li>
+          <li>
             <Link href="/seek">
-              <a className = {styles.spaceRight}>Seek</a>
+              <a className = {styles.spaceRight}><button>Seek</button></a>
             </Link>
           </li>
           <li>
@@ -41,17 +46,17 @@ export default function Header() {
           </li>
           <li>
             <Link href="/become">
-              <a className = {styles.spaceRight}>Become</a>
+              <a className = {styles.spaceRight}><button>Become</button></a>
             </Link>
           </li>
           <li>
             <Link href="/lessons">
-              <a className = {styles.spaceRight}>Lessons</a>
+              <a className = {styles.spaceRight}><button>Lessons</button></a>
             </Link>
           </li>
           <li>
             <Link href="/blog">
-              <a>Blog</a>
+              <a><button>Blog</button></a>
             </Link>
           </li>
           {/*
