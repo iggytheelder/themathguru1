@@ -30,6 +30,11 @@ export default function Post({ postData }) {
       <Head>
         <meta name="description" content={postData.except}/>
       </Head>
+      <p style={{textAlign: "center"}}>
+        <Link href="/blog">
+          <a>← Back to Blog</a>
+        </Link>
+      </p>
       <article>
         <h1 style={{textAlign: "center", marginBottom: "0"}}>
           {postData.title}<br/>
@@ -46,7 +51,7 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           */}
-        {postData.author}{' '}&#x2022;{' '}<Date dateString={postData.date} />
+        <Link href="/seek"><a>{postData.author}{' '}</a></Link>&#x2022;{' '}<Date dateString={postData.date} />
         </p>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
@@ -64,13 +69,9 @@ export default function Post({ postData }) {
           <span className="dot"></span>{' '}
           <span className="dot"></span>
         </p>
-        {/*
-        <p style={{textAlign: "center"}}>
-          <Link href="/blog">
-            <a>← Back to Blog</a>
-          </Link>
+        <p>
+          <Link href="/seek"><a>{postData.author}{' '}</a></Link> is available for math tutoring.
         </p>
-        */}
         <p>
           If you enjoyed this article, please consider sharing.
           With your help, we can help children everywhere overcome their anxiety and find thier love for math.

@@ -22,7 +22,7 @@ export default function Seek({ localTutorData }) {
       <h1 className = "title">Seek a Math Guru</h1>
       <div style={{textAlign: "center"}}>
         <p>
-          Find a Math Guru that will open your mathematical mind.
+          Find a Math Guru that will <Link href="/posts/unlocking-the-mathematical-mind"><a>unlock your mathematical mind</a></Link>.
         </p>
         {/*
         <p>
@@ -52,7 +52,7 @@ export default function Seek({ localTutorData }) {
                <h3 style={{textAlign: "center"}}>{name}</h3>
                  <div style={{textAlign: "center"}}>
                   <small>
-                  <a href={"tel:" + phone} className = "contacting"><button>{phone}</button></a><br/>
+                  <a href={"tel:" + phone} className = "contacting"><button>{phone}</button></a>{' '}
                   <a href={"mailto: " + email} className = "contacting"><button>{email}</button></a>
                   </small>
                  </div>

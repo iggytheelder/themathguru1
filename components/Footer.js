@@ -25,12 +25,14 @@ export default function Footer({ page }) {
             <div style={{marginBottom: "30px"}}>
               <SocialLinks size = "40"></SocialLinks>
             </div>
-              <Link href="/"><a>The Math Guru</a></Link><br/>
-              <Link href="/seek"><a>Seek a Tutor</a></Link><br/>
-              <Link href="/become"><a>Become a Tutor</a></Link><br/>
+              <Link href="/"><a>Home</a></Link><br/>
+              <Link href="/seek"><a>Seek a Math Guru</a></Link><br/>
+              <Link href="/become"><a>Become a Math Guru</a></Link><br/>
+              <Link href="/lessons"><a>Math Lessons</a></Link><br/>
               <Link href="/blog"><a>Blog</a></Link><br/>
               <Link href="/newsletter"><a>Newsletter</a></Link><br/>
-              <Link href="/contact"><a>Contact</a></Link>
+              <Link href="/contact"><a>Contact</a></Link><br/>
+              <Link href="https://g.page/r/Cbrj-d6W-eSiEBI/review"><a>Leave a Google Review</a></Link>
         </div>
         </footer>
       </>

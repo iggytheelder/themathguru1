@@ -4,20 +4,16 @@ import Script from 'next/script'
 import Layout, { siteTitle } from '@components/Layout'
 import ShareBtn from '@components/ShareBtn'
 
-export default function MathLessons() {
+export default function AlgebraLessons() {
   return (
     <Layout>
-      <h1 className = "title">Math Lessons</h1>
+    <p style={{textAlign: "center"}}>
+      <Link href="/lessons/">
+        <a>← Back to Math Lessons</a>
+      </Link>
+    </p>
+      <h1 className = "title">Algebra Lessons</h1>
       <div style={{textAlign:"center"}}>
-        <p>
-          Explore the visually interactive math lessons created by our Math Gurus.
-        </p>
-        <p>
-          More coming very soon!
-        </p>
-        <h2>
-          <Link href="/lessons/algebra"><a>Algebra Lessons</a></Link>
-        </h2>
         <p>
           Algebra is usually started to be taught in 8th grade.
           Teachers and standard curriculums don't always mention algebra by name.
