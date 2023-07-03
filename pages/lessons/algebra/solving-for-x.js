@@ -3,11 +3,20 @@ import Link from 'next/link'
 import Script from 'next/script'
 import Layout, { siteTitle } from '@components/Layout'
 import ShareBtn from '@components/ShareBtn'
+import Image from 'next/image'
 
 export default function SolvingForX() {
   return (
     <Layout>
-      <h1 className = "title"><Link href="/lessons/algebra/"><a>Algebra</a></Link> | Lesson 1: Solving for x</h1>
+      <div style = {{marginTop: "40px", textAlign: "center"}}>
+      <Image
+        src = "/blog/pexels-kristina-paukshtite-1591153.jpg"
+        width = {518.4}
+        height = {345.6}
+        alt="Photo by Kristina Paukshtite: https://www.pexels.com/photo/person-holding-white-daisy-flower-and-brown-accessories-1591153/"
+      />
+      </div>
+      <h1 className = "title"><Link href="/lessons/algebra/"><a>Algebra</a></Link> Lesson 1: Solving for x</h1>
       <div style={{textAlign:"center"}}>
         <Link href="/seek"><a>Caleb Ignace</a></Link> &#x2022; June 2, 2023
       </div>

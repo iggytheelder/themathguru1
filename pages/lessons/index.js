@@ -23,13 +23,6 @@ export default function MathLessons() {
         <p>
           <Link href="/lessons/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
         </p>
-        <p>
-          <small>
-          Algebra is usually started to be taught in 8th grade.
-          Teachers and standard curriculums don't always mention algebra by name.
-          They might call the algebra lessons "One Step Equations" or "Two Step Equations."
-          </small>
-        </p>
       </div>
     </Layout>
   )

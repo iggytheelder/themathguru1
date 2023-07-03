@@ -19,6 +19,9 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout>
       <h1 className = "title">Blog</h1>
+      <p className = "center">
+        Sign up to the <Link href = "/newsletter"><a>newsletter</a></Link> to get notified when we add a blog post.
+      </p>
       {/*
       <p style={{textAlign: "center"}}>
         A collection of timeless math writings.
