@@ -17,9 +17,6 @@ export default function Footer({ page }) {
               {' '}<Link href = "/newsletter"><a>Learn More</a></Link>
             </p>
             <NewsletterForm/>
-          {/*
-          <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
-          */}
           </div>
           <div className={styles.footerNav}>
             <div style={{marginBottom: "30px"}}>

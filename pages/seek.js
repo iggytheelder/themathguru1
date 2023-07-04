@@ -1,10 +1,9 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import Script from 'next/script'
 import Image from 'next/image'
-import Layout, { siteTitle } from '@components/Layout'
+import Layout from '@components/Layout'
 import SeekForm from '@components/SeekForm'
-import MessageBtn from '@components/MessageBtn'
+import DisplayTutors from '@components/DisplayTutors'
+
 
 import { getLocalTutorData } from '../lib/localdata';
 
@@ -32,71 +31,17 @@ export default function Seek({ localTutorData }) {
         </p>
         */}
         <h2>Available Tutors</h2>
+        <p style = {{transform: "translate(0,-10px)"}}>
+          1 of 1
+        </p>
       </div>
-      <section>
-         <ul style={{padding: "0"}}>
-           {localTutorData.map(({ id, name, imageName, experience, education, email, phone, message }) => (
-             <li key={id} className = "tutor">
-               <div style={{borderRadius: '100px', border:"solid 3px black", width: "150px", height: "150px", margin: "auto"}}>
-                 <Image
-                   src={"/tutors/" + imageName}
-                   width = {150}
-                   height = {150}
-                   alt="logo"
-                   style={{borderRadius: '100px'}}
-                 />
-               </div>
-               {/*
-                 <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
-               */}
-               <h3 style={{textAlign: "center"}}>{name}</h3>
-                 <div style={{textAlign: "center"}}>
-                  <small>
-                  <a href={"tel:" + phone} className = "contacting"><button>{phone}</button></a>{' '}
-                  <a href={"mailto: " + email} className = "contacting"><button>{email}</button></a>
-                  </small>
-                 </div>
-                 {/*
-               <div style={{textAlign: "center", marginBottom: "-10px"}}>
-                <a href={"tel:" + phone}>
-                  <Image
-                    src="/social/call.png"
-                    width={50}
-                    height = {50}
-                    alt="call"
-                  />
-                </a>
-                  <a href={"sms:"+phone}>
-                    <Image
-                      src="/social/chat.png"
-                      width={50}
-                      height = {50}
-                      alt="call"
-                    />
-                  </a>
-                  <a href={"mailto: " + email} target="blank_">
-                   <Image
-                     src="/social/email.png"
-                     width={50}
-                     height = {50}
-                     alt="email"
-                   />
-                 </a>
-               </div>
-               */}
-               <p>
-               </p>
-               <p>
-                <small>{message}</small>
-               </p>
-               <h4>Experience</h4>
-               <ul><small>{experience.map((e, i) => <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>{e}</li>)}</small></ul>
-               <h4>Education</h4>
-               <ul><small>{education.map((e, i) => <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>{e}</li>)}</small></ul>
-             </li>
-           ))}
-         </ul>
-       </section>
+      <DisplayTutors localTutorData = {localTutorData}></DisplayTutors>
+      <h3 className = "center" style={{marginTop: "500px"}}>
+        We are adding gurus every day.
+      </h3>
+      <p className = "center">
+        Do you want to <Link href="/become"><a>become</a></Link> a Math Guru?
+      </p>
     </Layout>
   )
 }

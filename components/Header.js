@@ -8,7 +8,7 @@ export default function Header() {
     <header className = {styles.header}>
       <nav>
         <ul>
-          <li className = {styles.spaceRight} style={{transform: "translate(0,30px)"}}>
+          <li className = {styles.spaceRight} style={{transform: "translate(0,27px)"}}>
             <Link href="/">
               <a>
                 <Image
