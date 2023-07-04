@@ -18,10 +18,10 @@ export default function MathLessons() {
           Sign up to the <Link href = "/newsletter"><a>newsletter</a></Link> to get notified when we add a lesson.
         </p>
         <h2>
-          <Link href="/lessons/algebra"><a>Algebra</a></Link>
+          <Link href="/courses/algebra"><a>Algebra</a></Link>
         </h2>
         <p>
-          <Link href="/lessons/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
+          <Link href="/courses/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
         </p>
       </div>
     </Layout>

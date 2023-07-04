@@ -15,7 +15,7 @@ export default function AlgebraLessons() {
           They might call the algebra lessons "One Step Equations" or "Two Step Equations."
         </p>
         <p>
-          <Link href="/lessons/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
+          <Link href="/courses/algebra/solving-for-x"><a>Lesson 1: Solving for x</a></Link>
         </p>
       </div>
     </Layout>
