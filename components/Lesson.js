@@ -5,14 +5,16 @@ import Layout, { siteTitle } from '@components/Layout'
 import ShareBtn from '@components/ShareBtn'
 import Image from 'next/image'
 
-export default function Lesson({ course, lesson, title, author, date, imageName, description, children }) {
+export default function Lesson({ course, lesson, title, author, date, imageName, tags, description, children }) {
   return (
     <Layout>
       <Head>
         <title>{course} | Lesson {lesson}: {title}</title>
         <meta name="author" content={author}/>
         <meta name="description" content={description}/>
-        <meta name="keywords" content="algebra, solve for x, solve for variable, solving for x, solving for variable"/>
+        <meta name="keywords" content={tags}/>
+        <meta name="image" content={"/courses/" + imageName}/>
+
       </Head>
       {/*
       <div style = {{marginTop: "40px", textAlign: "center"}}>
