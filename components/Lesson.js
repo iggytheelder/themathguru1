@@ -14,7 +14,7 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
         <meta name="description" content={description}/>
         <meta name="keywords" content={tags}/>
         <meta name="image" content={"/courses/" + imageName}/>
-
+        <meta property="og:image" content={"/courses/" + imageName}>
       </Head>
       {/*
       <div style = {{marginTop: "40px", textAlign: "center"}}>
