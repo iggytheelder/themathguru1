@@ -1,0 +1,78 @@
+import Lesson from '@components/Lesson'
+import M from '@components/Math'
+import I from '@components/Inline'
+import Link from 'next/link'
+
+<Lesson course = "Algebra" lesson = "1" title = "Solving for a Variable" author = "Caleb Ignace" date = "July 3, 2023" imageName = "acorns.png" description = "Most students learn a series of steps for solving for x. Have you heard the phrase 'opposite operation?' The steps are heuristics and they are taught in such a way that you can only solve equations that are exactly like the ones you've seen solved before.">
+
+Most students learn a series of steps for solving for <I>x</I>.
+Have you heard the phrase "opposite operation?"
+The steps are heuristics and they are taught in such a way that you can only solve equations that are exactly like the ones you've seen solved before.
+{' '}<i>Solving for <I>x</I></i> should be taught as a skill of knowing when to use a math truth.
+It's problem solving (no pun intended). But, first, what is "<I>x</I>" anyway?
+
+You know what a number like <I>5</I> is.
+One way to understand a number is through counting.
+Suppose you have acorns on the open palm of your hand.
+You count them and find that you have <I>5</I> acorns in your hand.
+Now imagine that your hand is closed. How many acorns do you have?
+Well you're not sure.
+You can't see them to count them (nor can you tell from touch).
+It's an <i>unknown</i> number. We call this a variable.
+
+When we <i>knew</i> the number of acorns in our hand, we counted <I>5</I>.
+When we <i>don't know</i> the number of acorns in our hand, we say the number is <I>x</I>.
+It is useful to refer to the unknown count of acorns in our hand as a symbol, such as <I>x</I> (but you could use any symbol).
+If we didn't use a symbol, we would have to spell out "the unknown number of acorns in my closed hand" every time we wanted to refer to that number.
+That's very inefficient and Mematicians are lazy, so that just won't do.
+
+Suppose you opened you hand, counted the number of acorns in your hand, which you find to be <I>5</I>, then close your hand again.
+You could write down the following equation to describe this situation:
+
+<M>x = 5</M>
+
+If we know that <I>x = 5</I>, is x known or unknown? Answer: it is known, <I>x</I> is <I>5</I>.
+This would be the conclusion that we would reach if we opened our hand and counted the acorns in our hand.
+The count was unknown when our hand was closed, and now it is known after we open our hand.
+
+The equation <I>x = 5</I> is as simple as we can get an equation with x in it.
+We can make it very complicated if we want. Let's do that.
+Suppose you doubled the number of accords in your hand. The equation becomes
+
+<M>2x = 10</M>
+
+We know we can write that equation because the number of acorns in our hand is both <I>x</I> and <I>5</I>.
+Double <I>x</I> is <I>2</I> times <I>x</I>, or <I>2x</I>.
+Double <I>5</I> is <I>10</I>.
+
+Now suppose that you give an acorn away to a friend. We could write the equation now as
+
+<M>2x - 1 = 9</M>
+
+where we have subtracted one away from <I>2x</I> and <I>10</I>, the number of acorns in our hand after doubling it.
+We subtracted because we gave an acorn away, we have one acorn less.
+
+Notice how complicated our equation is now, <I>2x - 1 = 9</I>. It is not obvious what x is now.
+Although you could show that x is still <I>5</I> by substitute <I>5</I> for <I>x</I>, as shown below:
+
+<M>2(5) - 1 = 9,</M>
+
+and you would find that
+
+<M>2(5) - 1 = 10 - 1 = 9.</M>
+
+So yes, <I>x = 5</I> is still true.
+But just as we made <I>x = 5</I> look like <I>2x - 1 = 9</I>, we can make <I>2x - 1 = 9</I> look like <I>x = 1</I>.
+We just do the opposite of each step. We can undo our complicated mess. Let's do that.
+
+The last thing we did was take an acorn away, so let's add an acorn and we get
+
+<M>2x = 10</M>
+
+Before we doubled the acorns in our hands, so let's cut the acorns in half (divide by two), and we get
+
+<M>x = 5</M>
+
+There! Back to the simple. You've just solved for <I>x</I>, you did it!
+
+</Lesson>

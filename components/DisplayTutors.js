@@ -6,7 +6,7 @@ import Layout from '@components/Layout'
 export default function DisplayTutors({ localTutorData }) {
   return (
     <ul style={{padding: "0"}}>
-      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, message }) => (
+      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, website, message }) => (
         <li key={id} className = {styles.tutor}>
           <div className = {styles.profile}>
             <Image
@@ -24,7 +24,8 @@ export default function DisplayTutors({ localTutorData }) {
           <div className = "center">
             <small>
               <a href={"tel:" + phone} className = {styles.contacting}><button>{phone}</button></a>{' '}
-              <a href={"mailto: " + email} className = {styles.contacting}><button>{email}</button></a>
+              <a href={"mailto: " + email} className = {styles.contacting}><button>{email}</button></a>{' '}
+              <a href={website} className = {styles.contacting}><button>calebignace.com</button></a>
             </small>
           </div>
           <p>

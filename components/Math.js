@@ -1,7 +1,7 @@
-export default function Math({ children }) {
+import LatexRenderer from '@components/LatexRenderer'
+
+export default function M({ children }) {
   return (
-    <div className = "center">
-      {children}
-    </div>
+    <LatexRenderer latex = {children}></LatexRenderer>
   )
 }

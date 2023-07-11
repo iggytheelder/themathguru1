@@ -19,18 +19,22 @@ export default function Footer({ page }) {
             <NewsletterForm/>
           </div>
           <div className={styles.footerNav}>
-            <div style={{marginBottom: "30px"}}>
+            Don't be a stranger, be social:{' '}
+            <div style={{marginBottom: "30px", display: "inline-block", transform: "translate(0, 13px)"}}>
               <SocialLinks size = "40"></SocialLinks>
+            </div><br/>
+            <Link href="/"><a>Home</a></Link><br/>
+            <Link href="/seek"><a>Seek a Math Guru</a></Link><br/>
+            <Link href="/become"><a>Become a Math Guru</a></Link><br/>
+            <Link href="/lessons"><a>Math Lessons</a></Link><br/>
+            <Link href="/blog"><a>Blog</a></Link><br/>
+            <Link href="/newsletter"><a>Newsletter</a></Link><br/>
+            <Link href="/contact"><a>Contact</a></Link><br/>
+            <Link href="https://g.page/r/Cbrj-d6W-eSiEBI/review"><a>Leave a Google Review</a></Link>
+            <div style={{marginTop: "30px"}}>
+              &#9400; 2023 The Math Guru
             </div>
-              <Link href="/"><a>Home</a></Link><br/>
-              <Link href="/seek"><a>Seek a Math Guru</a></Link><br/>
-              <Link href="/become"><a>Become a Math Guru</a></Link><br/>
-              <Link href="/lessons"><a>Math Lessons</a></Link><br/>
-              <Link href="/blog"><a>Blog</a></Link><br/>
-              <Link href="/newsletter"><a>Newsletter</a></Link><br/>
-              <Link href="/contact"><a>Contact</a></Link><br/>
-              <Link href="https://g.page/r/Cbrj-d6W-eSiEBI/review"><a>Leave a Google Review</a></Link>
-        </div>
+          </div>
         </footer>
       </>
     )

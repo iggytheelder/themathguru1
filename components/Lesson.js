@@ -5,9 +5,15 @@ import Layout, { siteTitle } from '@components/Layout'
 import ShareBtn from '@components/ShareBtn'
 import Image from 'next/image'
 
-export default function Lesson({ course, lesson, title, author, date, children }) {
+export default function Lesson({ course, lesson, title, author, date, imageName, description, children }) {
   return (
     <Layout>
+      <Head>
+        <title>{course} | Lesson {lesson}: {title}</title>
+        <meta name="author" content={author}/>
+        <meta name="description" content={description}/>
+        <meta name="keywords" content="algebra, solve for x, solve for variable, solving for x, solving for variable"/>
+      </Head>
       {/*
       <div style = {{marginTop: "40px", textAlign: "center"}}>
       <Image
@@ -18,7 +24,19 @@ export default function Lesson({ course, lesson, title, author, date, children }
       />
       </div>
       */}
+      {/*
       <h1 className = "title"><Link href={"/courses/"+course.toLowerCase()+"/"}><a>{course}</a></Link> Lesson {lesson}: {title}</h1>
+      */}
+      <div style={{justifyContent: "center",display: "flex", width: '100%', height: '200px', position: 'relative', marginBottom: "-20px"}}>
+        <Image
+          src={"/courses/" + imageName}
+          layout='fill'
+          objectFit='contain'
+          alt="acorns"
+        />
+      </div>
+      <h1 className = "title">{course} | Lesson {lesson}</h1>
+      <h2 className = "subtitle" style={{textAlign: "center"}}>{title}</h2>
       <div style={{textAlign:"center"}}>
         <Link href="/seek"><a>{author}</a></Link> &#x2022; {date}
       </div>
