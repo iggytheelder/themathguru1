@@ -20,7 +20,6 @@ export default function Layout({ page, children }) {
           <meta charset="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta name="keywords" content="math, tutoring, math education, math tutoring"/>
-          <meta http-equiv="refresh" content="30"/>
         </Head>
         <Header/>
         {/*<Cover/>*/}
