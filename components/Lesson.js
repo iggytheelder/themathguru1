@@ -29,7 +29,7 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
       {/*
       <h1 className = "title"><Link href={"/courses/"+course.toLowerCase()+"/"}><a>{course}</a></Link> Lesson {lesson}: {title}</h1>
       */}
-      <div style={{justifyContent: "center",display: "flex", width: '100%', height: '200px', position: 'relative', marginBottom: "-20px"}}>
+      <div style={{justifyContent: "center",display: "flex", width: '100%', height: '200px', position: 'relative', marginBottom: "0px"}}>
         <Image
           src={"/courses/" + imageName}
           layout='fill'
@@ -37,8 +37,8 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
           alt="acorns"
         />
       </div>
-      <h1 className = "title">{course} | Lesson {lesson}</h1>
-      <h2 className = "subtitle" style={{textAlign: "center"}}>{title}</h2>
+      <h2 className = "subtitle" style={{textAlign: "center"}}>{course} | Lesson {lesson}</h2>
+      <h1 className = "title">{title}</h1>
       <div style={{textAlign:"center"}}>
         <Link href="/seek"><a>{author}</a></Link> &#x2022; {date}
       </div>
@@ -53,6 +53,15 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
         <Link href="/seek"><a>Caleb Ignace</a></Link> is available for math tutoring.
       </p>
       */}
+      <p>
+        Want more practice problems?
+        Our accounts are in beta, and you can <Link href = "/signup">submit an application</Link> to be part of it.
+        You'll get access to more practice problems and we will save your progress.
+      </p>
+      <p>
+        Got questions?
+        Ask a <Link href="/seek">Math Guru</Link>.
+      </p>
       <p>
         If you enjoyed this lesson, please consider sharing.
         With your help, we can help children everywhere overcome their anxiety and find thier love for math.

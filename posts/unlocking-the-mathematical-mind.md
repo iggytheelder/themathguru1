@@ -12,4 +12,8 @@ The Math Guru is a platform for students to [Seek](/seek) the Math Guru that bes
 
 When a child interacts with a Math Guru, the process of learning math is fun and rewarding. They walk away each time with a positive and uplifting experience, and can't wait for the next time. All children have the capacity to do math. The Math Guru is focused on creating relationships that support students in realizing their math ability.
 
-P.S. This article is a living document and will be updated.
+Mathematics is heavily influenced by reading comprehension. This is why we place emphasis on word problems. Kids hate word problem. We are aiming to tackle the heart of the issue. A math problem does not exist in a vacuum. It is created when we are thinking about problems in the world.
+
+In our very first [math lesson](/courses/algebra/solving-for-a-variable) that we've written, we are concerned with counting acorns under various contexts. We think acorns are interesting to children. Especially if adults will take them to the park and demonstrate the math problems with real-life acorns! A guide for this is coming soon.
+
+We are making math more dynamic than sitting in a classroom.

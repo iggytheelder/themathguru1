@@ -25,6 +25,17 @@ export default function SocialLinks({ size }) {
           />
         </div>
       </a>
+      <a href="https://www.instagram.com/themathgurututoring/" target="blank_">
+      <div className = {styles.social}>
+        <Image
+          className = {styles.socialLink}
+          src="/social/instagram-128.png"
+          width={size}
+          height={size}
+          alt="instagram"
+        />
+        </div>
+      </a>
       {/*
       <a href="https://twitter.com/iggytheelder" target="blank_" className = {styles.spaceRight}>
         <div className = {`${styles.social} ${styles.twitter}`} style={{height: size + "px", width: size + "px"}}>

@@ -6,7 +6,7 @@ import Layout from '@components/Layout'
 export default function DisplayTutors({ localTutorData }) {
   return (
     <ul style={{padding: "0"}}>
-      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, website, message }) => (
+      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, schedule, website, message }) => (
         <li key={id} className = {styles.tutor}>
           <div className = {styles.profile}>
             <Image
@@ -21,17 +21,15 @@ export default function DisplayTutors({ localTutorData }) {
           {/*
             <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
           */}
-          <div className = "center">
-            <small>
-              <a href={"tel:" + phone} className = {styles.contacting}><button>{phone}</button></a>{' '}
-              <a href={"mailto: " + email} className = {styles.contacting}><button>{email}</button></a>{' '}
-              <a href={website} className = {styles.contacting}><button>calebignace.com</button></a>
-            </small>
-          </div>
+          {/*
+          <a href={schedule} className = {styles.contacting}><button className = {styles.bookBtn}>Schedule Now (Pay Later)</button></a>
+          */}
+          <h4>Intro</h4>
           <p>
             <small>{message}</small>
           </p>
           <h4>Experience</h4>
+          <p>
           <ul>
             {experience.map((e, i) => (
               <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
@@ -39,14 +37,32 @@ export default function DisplayTutors({ localTutorData }) {
               </li>
             ))}
           </ul>
+          </p>
           <h4>Education</h4>
-          <ul>
-            {education.map((e, i) => (
-              <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
-                <small>{e}</small>
-              </li>
-            ))}
-          </ul>
+          <p>
+            <ul>
+              {education.map((e, i) => (
+                <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
+                  <small>{e}</small>
+                </li>
+              ))}
+            </ul>
+          </p>
+          <h4>Contact</h4>
+          <p>
+            <small>
+              Phone: {phone}
+              {/* {' '}
+              <a href={"tel:" + phone} className = {styles.contacting}>
+                <button>
+                  Call
+                </button>
+              </a><br/>
+              Email: {email}{' '}<a href={"mailto: " + email} className = {styles.contacting}><button>Email</button></a><br/>
+              Website: <a href={website} className = {styles.contacting}>calebignace.com</a><br/>
+              */}
+            </small>
+          </p>
         </li>
        ))}
      </ul>

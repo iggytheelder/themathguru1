@@ -72,7 +72,7 @@ export default function Post({ postData }) {
           <span className="dot"></span>
         </p>
         <p>
-          <Link href="/seek"><a>{postData.author}{' '}</a></Link> is available for math tutoring.
+          The author of this article, {postData.author}, and other Math Gurus are <Link href="/seek">available</Link> for math tutoring.
         </p>
         <p>
           If you enjoyed this article, please consider sharing.

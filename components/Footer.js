@@ -19,8 +19,8 @@ export default function Footer({ page }) {
             <NewsletterForm/>
           </div>
           <div className={styles.footerNav}>
-            Don't be a stranger, be social:{' '}
-            <div style={{marginBottom: "30px", display: "inline-block", transform: "translate(0, 13px)"}}>
+            Don't be a stranger, be social.
+            <div style={{marginTop: "35px"}}>
               <SocialLinks size = "40"></SocialLinks>
             </div><br/>
             <Link href="/"><a>Home</a></Link><br/>

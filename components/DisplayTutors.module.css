@@ -10,7 +10,7 @@
 
 .tutor * {
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .tutor h1, .tutor h2, .tutor h3, .tutor h4, .tutor {
@@ -28,4 +28,16 @@
   height: 125px;
   margin: auto;
   margin-bottom: 10px;
+}
+
+.bookBtn {
+  padding: 10px;
+  background: #FFB6AD;
+  transition-duration: .5s;
+}
+
+.bookBtn:hover {
+  background: #FFB6AD;
+  box-shadow: 0px 0px 3px 3px #FFB6AD;
+  transition-duration: .5s;
 }
