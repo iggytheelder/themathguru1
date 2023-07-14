@@ -20,19 +20,15 @@ export default function DisplayTutors({ localTutorData }) {
               style={{borderRadius: '100px'}}
             />
           </div>
-          <h3 className = "center">{name}</h3>
+          <h3>{name}</h3>
           {/*
             <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
           */}
           {/*
           <a href={schedule} className = {styles.contacting}><button className = {styles.bookBtn}>Schedule Now (Pay Later)</button></a>
           */}
-          <div>
-            <InlineWidget url="https://calendly.com/calebignace/60min" />
-          </div>
-          <h4>Intro</h4>
           <p>
-            <small>{message}</small>
+            <small>{message}</small><br/>
           </p>
           <h4>Experience</h4>
           <ul>
@@ -65,6 +61,23 @@ export default function DisplayTutors({ localTutorData }) {
               */}
             </small>
           </p>
+          <h4>Availability</h4>
+          <p>
+            <small>Schedule now, pay after.</small>
+          </p>
+          <div>
+            <InlineWidget pageSettings={{
+              backgroundColor: 'ffffff',
+              hideEventTypeDetails: true,
+              hideLandingPageDetails: true,
+              hideGdprBanner: true,
+              primaryColor: '00a2ff',
+              textColor: '4d5055'
+            }} styles={{
+              height: '500px'
+            }}
+            url="https://calendly.com/calebignace/60min" />
+          </div>
         </li>
        ))}
      </ul>

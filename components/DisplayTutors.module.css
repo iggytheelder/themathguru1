@@ -26,7 +26,7 @@
   border: solid 3px black;
   width: 125px;
   height: 125px;
-  margin: auto;
+  /*  margin: auto; to center it*/ 
   margin-bottom: 10px;
 }
 
