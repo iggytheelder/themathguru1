@@ -3,6 +3,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '@components/Layout'
 
+import React from "react";
+import { InlineWidget } from "react-calendly";
+
 export default function DisplayTutors({ localTutorData }) {
   return (
     <ul style={{padding: "0"}}>
@@ -24,12 +27,14 @@ export default function DisplayTutors({ localTutorData }) {
           {/*
           <a href={schedule} className = {styles.contacting}><button className = {styles.bookBtn}>Schedule Now (Pay Later)</button></a>
           */}
+          <div>
+            <InlineWidget url="https://calendly.com/calebignace/60min" />
+          </div>
           <h4>Intro</h4>
           <p>
             <small>{message}</small>
           </p>
           <h4>Experience</h4>
-          <p>
           <ul>
             {experience.map((e, i) => (
               <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
@@ -37,17 +42,14 @@ export default function DisplayTutors({ localTutorData }) {
               </li>
             ))}
           </ul>
-          </p>
           <h4>Education</h4>
-          <p>
-            <ul>
-              {education.map((e, i) => (
-                <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
-                  <small>{e}</small>
-                </li>
-              ))}
-            </ul>
-          </p>
+          <ul>
+            {education.map((e, i) => (
+              <li style={{marginBottom: "10px"}} key = {String(id) + "exp" + String(i)}>
+                <small>{e}</small>
+              </li>
+            ))}
+          </ul>
           <h4>Contact</h4>
           <p>
             <small>
