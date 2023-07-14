@@ -1,0 +1,11 @@
+.coverImage {
+  border-radius: 30px;
+  align-items: center;
+}
+
+.coverDiv {
+  border-radius: 30px;
+  box-shadow: 5px 5px 0px 1px #FE9774;
+  line-height: 0%;
+  border: solid black 2px;
+}
