@@ -1,18 +1,21 @@
 .message {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 32px;
+  margin-bottom: 10px;
+  background: #36454F;
+  color: #FEEEEE;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .button {
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
-  background: #FE9774;
 }
 
 .button:hover {
   opacity: .8;
-  background: #FE9774;
 }
 
 @media screen and (max-width: 575px) {

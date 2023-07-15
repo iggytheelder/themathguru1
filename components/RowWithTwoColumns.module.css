@@ -1,3 +1,7 @@
+.row {
+  margin-bottom: 40px;
+}
+
 .row:after {
   content: "";
   display: table;

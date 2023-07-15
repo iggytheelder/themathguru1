@@ -49,6 +49,7 @@ export default function Header() {
               <a className = {styles.spaceRight}>Become</a>
             </Link>
           </li>
+          {/*
           <li>
             <Link href="/courses">
               <a className = {styles.spaceRight}>Courses</a>
@@ -59,6 +60,7 @@ export default function Header() {
               <a>Blog</a>
             </Link>
           </li>
+          */}
           {/*
           <li>
             <Link href="/contact">
