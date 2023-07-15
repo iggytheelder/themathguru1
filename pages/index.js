@@ -125,7 +125,7 @@ export default function Home() {
           src = "/home/pexels-andrea-piacquadio-3807738.jpg"
           width = "600"
           height = "400"
-          alt = "child being tutored by man"
+          alt = "women stressed out"
           boxShadow = "-5px 5px 0px 5px"
           color = "#FFD3AE"
           borderRadius = "10px"

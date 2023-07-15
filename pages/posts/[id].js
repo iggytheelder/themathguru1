@@ -38,9 +38,12 @@ export default function Post({ postData }) {
       </p>
       */}
       <article>
-        <h1 style={{textAlign: "center", marginBottom: "0"}}>
-          {postData.title}<br/>
-          {postData.subtitle ? <span className="subtitle">{" " + postData.subtitle}</span> : ""}
+        {/*
+          {postData.subtitle ? <h3 className="subtitle" style={{textAlign: "center"}}>{" " + postData.subtitle}</h3> : ""}
+
+          */}
+        <h1 style={{textAlign: "center"}}>
+          {postData.title}
         </h1>
         <p style={{textAlign: "center"}}>
         {
@@ -70,9 +73,6 @@ export default function Post({ postData }) {
           <span className="dot"></span>{' '}
           <span className="dot"></span>{' '}
           <span className="dot"></span>
-        </p>
-        <p>
-          <Link href="/seek"><a>{postData.author}{' '}</a></Link> is available for math tutoring.
         </p>
         <p>
           If you enjoyed this article, please consider sharing.

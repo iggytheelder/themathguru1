@@ -37,8 +37,10 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
           alt="acorns"
         />
       </div>
-      <h1 className = "title">{course} | Lesson {lesson}</h1>
-      <h2 className = "subtitle" style={{textAlign: "center"}}>{title}</h2>
+      {/*
+        <h2 className = "subtitle" style={{textAlign: "center"}}>{course} | Lesson {lesson}</h2>
+        */}
+      <h1 className = "title" style={{textAlign: "center"}}>{title}</h1>
       <div style={{textAlign:"center"}}>
         <Link href="/seek"><a>{author}</a></Link> &#x2022; {date}
       </div>
@@ -54,7 +56,7 @@ export default function Lesson({ course, lesson, title, author, date, imageName,
       </p>
       */}
       <p>
-        If you enjoyed this lesson, please consider sharing.
+        If you enjoyed this article, please consider sharing.
         With your help, we can help children everywhere overcome their anxiety and find thier love for math.
       </p>
       <p style={{textAlign: "center"}}>

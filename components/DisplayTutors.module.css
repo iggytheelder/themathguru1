@@ -1,20 +1,19 @@
 .tutor {
   list-style-type: "";
   border: solid 0px black;
-  padding: 20px 20px 20px 20px;
+  padding: 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 10px 1px rgb(10,10,10,0.6);
-  margin: auto;
-  max-width: 600px;
 }
 
 .tutor * {
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
-.tutor h1, .tutor h2, .tutor h3, .tutor h4, .tutor {
-  margin-bottom: 10px;
+.tutor h2, .tutor h3, .tutor h4, .tutor {
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .contacting button {
