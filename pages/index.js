@@ -13,7 +13,12 @@ import JokeBlock from "@components/JokeBlock";
 export default function Home() {
   return (
     <Layout>
-      <LandingPage></LandingPage>
+      <p>
+        Hi, this page is being actively developed. Sorry the inconvience,
+        I know you were hoping to see a cool landing page with all the bells and wistles.
+        I build in public at <Link href="https://twitter.com/iggytheelder">@iggytheelder</Link> on Twitter if you want to following
+        all the developments.
+      </p>
       {/*
       <FeedbackForm />
       <JokeBlock/>
