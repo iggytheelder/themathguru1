@@ -53,7 +53,7 @@ export default function Home() {
           alt = "child being tutored by women"
           boxShadow = "5px 5px 0px 5px"
           color = "#FE9774"
-          borderRadius = "30px"
+          borderRadius = "10px"
           border = "solid black 2px">
         </StyleImage>
       } right = {
@@ -78,7 +78,7 @@ export default function Home() {
           alt = "child being tutored by man"
           boxShadow = "5px -5px 0px 5px"
           color = "#C88BD1"
-          borderRadius = "30px"
+          borderRadius = "10px"
           border = "solid black 2px">
         </StyleImage>
       } right = {
@@ -103,7 +103,7 @@ export default function Home() {
           alt = "math tutor looking proud"
           boxShadow = "-5px -5px 0px 5px"
           color = "#FFB6AD"
-          borderRadius = "30px"
+          borderRadius = "10px"
           border = "solid black 2px">
         </StyleImage>
       } right = {
@@ -128,7 +128,7 @@ export default function Home() {
           alt = "child being tutored by man"
           boxShadow = "-5px 5px 0px 5px"
           color = "#FFD3AE"
-          borderRadius = "30px"
+          borderRadius = "10px"
           border = "solid black 2px">
         </StyleImage>
       } right = {

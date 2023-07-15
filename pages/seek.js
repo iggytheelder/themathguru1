@@ -36,12 +36,6 @@ export default function Seek({ localTutorData }) {
         </p>
       </div>
       <DisplayTutors localTutorData = {localTutorData}></DisplayTutors>
-      <h3 className = "center" style={{marginTop: "500px"}}>
-        We are adding gurus every day.
-      </h3>
-      <p className = "center">
-        Do you want to <Link href="/become"><a>become</a></Link> a Math Guru?
-      </p>
     </Layout>
   )
 }

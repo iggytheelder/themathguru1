@@ -26,8 +26,6 @@ export default function Footer({ page }) {
             <Link href="/"><a>Home</a></Link><br/>
             <Link href="/seek"><a>Seek a Math Guru</a></Link><br/>
             <Link href="/become"><a>Become a Math Guru</a></Link><br/>
-            <Link href="/lessons"><a>Math Lessons</a></Link><br/>
-            <Link href="/blog"><a>Blog</a></Link><br/>
             <Link href="/newsletter"><a>Newsletter</a></Link><br/>
             <Link href="/contact"><a>Contact</a></Link><br/>
             <Link href="https://g.page/r/Cbrj-d6W-eSiEBI/review"><a>Leave a Google Review</a></Link>

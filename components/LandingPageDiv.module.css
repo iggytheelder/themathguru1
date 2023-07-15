@@ -2,14 +2,18 @@
   font-weight: bold;
   font-size: 32px;
   margin-bottom: 10px;
+  /*
   background: #36454F;
   color: #FEEEEE;
-  padding: 20px;
+  */
+  padding: 10px;
+  background: #36454F;
   border-radius: 10px;
+  color: #FEEEEE;
 }
 
 .button {
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
 }

@@ -9,10 +9,6 @@
   color: black;
 }
 
-.header a:hover {
-  color: blue;
-}
-
 .header nav {
   transform: translate(0, -25px);
   text-align: center;
