@@ -1,3 +1,30 @@
-.row {
-  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.left {
+  width: 50%;
+  padding-right: 2%;
+}
+
+.right {
+  width: 50%;
+  padding-left: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    padding: 0;
+  }
+  .left {
+    margin-bottom: 20px;
+  }
 }
