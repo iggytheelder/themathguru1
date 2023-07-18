@@ -9,7 +9,7 @@ export default function Become() {
     <Layout>
       <h1 className = "title">Become a Math Guru</h1>
       <p>
-        TLDR; The world needs math tutors, <a href="#apply">apply</a> to be a math tutor with us.
+        TLDR; <a href="#apply">Apply</a> to get paid to talk about math. It's the easiest gig in the world if you're already good at math.
       </p>
       <h3>
         Does this describe you?
@@ -77,11 +77,12 @@ export default function Become() {
       </h3>
       <p>
         You, the Math Guru, show up to your favorite spot (coffee shop, library, ect.) each week, and students show up to get tutoring.
-        You smile, shake hands with their parents, and work on figuring out how to make math make sense to those kids.
+        You smile, laugh, shake hands with their parents, and work on figuring out how to make math make sense to those kids.
       </p>
       <p>
         That's it. We handle all the rest. You get paid.
         You are going to visit your favorite spot anyway. Why not get paid to be there?
+        Together we will solve a global problem with local interactions.
       </p>
       <h3 id = "apply">
         Apply now to join us!
