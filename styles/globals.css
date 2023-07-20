@@ -56,7 +56,8 @@ a {
   font-weight: bold;
   */
   color: blue;
-  text-decoration: none;
+  color: #C11BD1;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -86,4 +87,27 @@ p {
 
 .center {
   text-align: center;
+}
+
+blockquote {
+  border-left: solid 4px lightgray;
+  padding-left: 40px;
+  margin: 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+blockquote div {
+  margin-top: 10px;
+}
+
+blockquote cite {
+  font-style: normal;
+  font-weight: 450;
+}
+
+.hellip {
+  letter-spacing: 5px;
 }
