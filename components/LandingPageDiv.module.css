@@ -16,6 +16,7 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
+  border: solid 2px black;
 }
 
 .button:hover {

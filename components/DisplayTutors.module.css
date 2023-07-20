@@ -28,3 +28,15 @@
   margin: auto;
   margin-bottom: 10px;
 }
+
+.scheduleBtn {
+  background: #FFB6AD;
+  color: black;
+  font-weight: bold;
+  border: solid 2px black;
+  /*box-shadow: 5px 5px 0px #C96898;*/
+}
+
+.scheduleBtn span {
+  color: gray;
+}

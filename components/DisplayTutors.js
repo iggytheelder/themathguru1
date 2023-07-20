@@ -9,7 +9,7 @@ import { InlineWidget } from "react-calendly";
 export default function DisplayTutors({ localTutorData }) {
   return (
     <ul style={{padding: "0"}}>
-      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, website, message, schedule }) => (
+      {localTutorData.map(({ id, name, imageName, experience, education, email, phone, website, message, schedule, slogan, courses }) => (
         <li key={id} className = {styles.tutor}>
           <div className = {styles.profile}>
             <Image
@@ -21,12 +21,30 @@ export default function DisplayTutors({ localTutorData }) {
             />
           </div>
           <h3 className = "center">{name}</h3>
-          {/*
-            <h3>{name}{(id == 1 ? ", Founder of The Math Guru" : "")}</h3>
-          */}
+          <p className = "center" style={{marginTop: "20px"}}>
+            <small><i>{slogan}</i></small>
+          </p>
+          <p className = "center" style={{marginTop: "20px"}}>
+            <a href = {"#schedule-with-" + id + name}>
+              <button className = {styles.scheduleBtn}>
+                Schedule Now
+              </button>
+            </a>
+          </p>
+          <h4>Introduction</h4>
           <p>
             <small>{message}</small>
           </p>
+          <h4>Expertise</h4>
+          <ul style={{padding:0}}>
+            {courses.map((e, i) => (
+              <li style={{marginBottom: "10px", display:"inline-block"}} key = {String(id) + "exp" + String(i)}>
+                <small>
+                  { i < courses.length - 1 ? <span style={{marginRight: "5px"}}>{e + ";"}</span>: e}
+                </small>
+              </li>
+            ))}
+        </ul>
           <h4>Experience</h4>
           <ul>
             {experience.map((e, i) => (
@@ -56,10 +74,10 @@ export default function DisplayTutors({ localTutorData }) {
               </small>
             </p>
           </div>
-          <h4>Availability</h4>
+          <h4 id = {"schedule-with-" + id + name}>Availability</h4>
           <p>
             <small>
-              Schedule now, pay later. I trust my clients to pay after I solve all their problems!
+              Schedule now, pay after your session. I trust my clients to pay after I solve all their problems!
             </small>
           </p>
           <InlineWidget

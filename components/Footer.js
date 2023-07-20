@@ -19,19 +19,23 @@ export default function Footer({ page }) {
             <NewsletterForm/>
           </div>
           <div className={styles.footerNav}>
-            Don't be a stranger, be social.{' '}
             <p>
+              Don't be a stranger, be social.
+            </p>
+            <div>
             {/*
               <div style={{marginBottom: "30px", display: "inline-block", transform: "translate(0, 13px)"}}>
               */}
               <SocialLinks size = "40"></SocialLinks>
-            </p>
+            </div>
+            <p>
             <Link href="/"><a>Home</a></Link><br/>
             <Link href="/seek"><a>Seek a Math Guru</a></Link><br/>
             <Link href="/become"><a>Become a Math Guru</a></Link><br/>
             <Link href="/newsletter"><a>Newsletter</a></Link><br/>
             <Link href="/contact"><a>Contact</a></Link><br/>
             <Link href="https://g.page/r/Cbrj-d6W-eSiEBI/review"><a>Leave a Google Review</a></Link>
+            </p>
             <div style={{marginTop: "30px"}}>
               &#9400; 2023 The Math Guru
             </div>

@@ -57,7 +57,7 @@ a {
   */
   color: blue;
   color: #C11BD1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
@@ -74,11 +74,15 @@ p {
 }
 
 .dot {
-  height: 10px;
-  width: 10px;
+  height: 6px;
+  width: 6px;
+  /*
   background-color: rgb(10,10,10,.6);
+  */
+  background: black;
   border-radius: 50%;
   display: inline-block;
+  transform: translate(0, -3px);
 }
 
 .subtitle {

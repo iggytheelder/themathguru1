@@ -3,8 +3,9 @@
     "id": 1,
     "name": "Caleb Ignace",
     "email": "caleb@themath.guru",
-    "city": "Johnson City",
-    "state": "Tennessee",
+    "city": "Flagstaff",
+    "state": "Arizona",
+    "zip": "85615",
     "phone": "(480) 420 - 8218",
     "website": "https://www.calebignace.com/tutoring",
     "imageName": "calebignace.png",
@@ -12,11 +13,17 @@
       "Bachelor's Degree in Mathematics",
       "Working on Graduate Degree in Applied Mathematics"
     ],
+    "courses": [
+      "College Algebra", "Calculus 1 - 3", "Discrete Math", "Triginometry",
+      "Pre-Calculus", "Business Calculus", "Differential Equations", "Geometry",
+      "AP Calculus", "Linear Algebra", "Probability and Statistics", "Python", "Javascript", "Physics"
+    ],
     "experience": [
-        "5 years - Math Tutor",
+        "5 years - Math Tutor; 100+ students",
         "2 years - Middle School Math Interventionist"
     ],
     "schedule": "https://calendly.com/calebignace/60min",
-    "message": "I am an experienced math tutor with children and adults of all ages. I have a degree in math with experience in higher level math courses. Whatever math you need help with, I got you."
+    "message": "Although I mostly work with college students, I am an experienced math tutor with children and adults of all ages. I have a degree in math with experience in higher level math courses. Whatever math you need help with, I got you. ✌️",
+    "slogan": "The office hours your professor can't offer."
   }
 ]
