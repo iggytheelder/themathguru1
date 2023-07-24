@@ -8,6 +8,9 @@ import ContactForm from '@components/ContactForm'
 export default function Contact() {
   return (
     <Layout>
+      <Head>
+        <meta name="description" content="Contact us."/>
+      </Head>
       <h1 className = "title">Contact</h1>
       <p>
         Communicate with us through call, text, or email.

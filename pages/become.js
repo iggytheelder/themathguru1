@@ -6,6 +6,9 @@ import JoinForm from '@components/JoinForm';
 
 export default function Become() {
   return (
+    <Head>
+      <meta name="description" content="Become a Math Guru, a math tutor that has the capacity to unlock the mathematical mind."/>
+    </Head>
     <Layout>
       <h1 className = "title">Become a Math Guru</h1>
       <p>

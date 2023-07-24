@@ -17,6 +17,9 @@ export async function getStaticProps() {
 
 export default function Blog({ allPostsData }) {
   return (
+    <Head>
+      <meta name="description" content="The Math Guru's Blog"/>
+    </Head>
     <Layout>
       <h1 className = "title">Blog</h1>
       <p className = "center">

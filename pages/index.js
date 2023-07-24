@@ -13,6 +13,9 @@ import JokeBlock from "@components/JokeBlock";
 
 export default function Home() {
   return (
+    <Head>
+      <meta name="description" content="The Math Guru is a tutoring service like no other."/>
+    </Head>
     <Layout>
     {/*
       <p>

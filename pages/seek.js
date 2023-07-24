@@ -17,6 +17,9 @@ export async function getStaticProps() {
 
 export default function Seek({ localTutorData }) {
   return (
+    <Head>
+      <meta name="description" content="Find a math tutor."/>
+    </Head>
     <Layout>
       <h1 className = "title">Seek a Math Guru</h1>
       <div style={{textAlign: "center"}}>
