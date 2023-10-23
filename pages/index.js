@@ -40,7 +40,7 @@ export default function Home() {
         <p>
           Caleb is available 10 hours a day, 5 days a week, and some weekends.
         </p>
-        <h2>Testimonials</h2>
+        <h2 id = "testimonials">Testimonials</h2>
         <p>
           "I have used several math tutors in college and I finally have found a tutor who can explain the topics better than the professor and explain how to do the problem clearly. I was struggling before I started working with Caleb and now I am extremely confident with my math skills."
           - Kyle H., Arizona State University
@@ -57,7 +57,7 @@ export default function Home() {
           "I’ve been preparing to take the HESI, the nursing entrance exam, for my nursing program. I was confident on most of the content, but I was still struggling with some of the math. Caleb refreshed me on everything from ratios & proportions to solving systems of equations. I’ve passed my HESI and got into my nursing program!"
           <br/> - Dalia O.
         </p>
-        <h2>How it works</h2>
+        <h2 id = "how-it-works">How it works</h2>
         <p>
           Caleb tutors for ANY math class and for any age.
           Most students that use us for math tutoring are taking a college math class, such as college algebra, calculus, or more advanced math classes.
@@ -78,7 +78,7 @@ export default function Home() {
           No need to send payment before the session.
           Everytime you schedule, you'll receieve an email confirmation which will go on your calendar and a text reminder 1 hour before the session.
         </p>
-        <h2>Pricing</h2>
+        <h2 id = "pricing">Pricing</h2>
         <p>
           $95 per hour
         </p>
@@ -86,12 +86,12 @@ export default function Home() {
           If you do 3+ hours per week, you will be billed $80 per hour (saving you $15 per hour).
           For example, say you do 60-minute 4 sessions within a week, you will get billed $95, $95, $40, and $80.
         </p>
-        <h2>Referrals</h2>
+        <h2 id = "referrals">Referrals</h2>
         <p>
-          Whenever a new student that you've referred does their first session with us.
-          You get $20 off your next discount, and they get $20 off their first session.
+          Whenever a new student that you've referred does their first session with us,
+          you get 50% off your next discount.
         </p>
-        <h2>Contact</h2>
+        <h2 id = "contact">Contact</h2>
         <p>
           Call or text Caleb at <b>(480) 420 - 8218</b> for inquires about math tutoring. All other communication can be done by email at caleb@themath.guru
         </p>
