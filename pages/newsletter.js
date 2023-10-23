@@ -8,6 +8,7 @@ import ShareBtn from '@components/ShareBtn'
 
 export default function Newsletter() {
   return (
+    <>
     <Head>
       <meta name="description" content="Subscribe to The Math Guru's Newsletter."/>
     </Head>
@@ -27,5 +28,6 @@ export default function Newsletter() {
       </p>
       <NewsletterForm></NewsletterForm>
     </Layout>
+    </>
   )
 }

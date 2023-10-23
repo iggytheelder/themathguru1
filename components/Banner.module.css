@@ -1,11 +1,12 @@
 .banner {
   position: relative;
   text-align: center;
-  padding: 10px;
-  background-color: #FFD3AE;
+  padding: 20px;
+  background-color: lightblue;
   color: black;
   opacity: 0.9;
   width: 100%;
   z-index: 1;
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 0px;
 }

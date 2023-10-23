@@ -14,19 +14,24 @@ export const siteDescription = siteTitle + " is innovating in the math tutoring 
 export default function Layout({ page, children }) {
   return (
     <>
+      {/*
       <Banner/>
+      */}
       <div className="container">
         <Head>
           <meta charset="UTF-8"/>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta name="keywords" content="math, tutoring, math education, math tutoring"/>
         </Head>
+        {/*
         <Header/>
-        {/*<Cover/>*/}
+        */}
         <main>
           {children}
         </main>
+        {/*
         <Footer page = {page}/>
+        */}
         <Script
             id="tally-js"
             src="https://tally.so/widgets/embed.js"

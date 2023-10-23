@@ -20,13 +20,11 @@ export default function Header() {
               </a>
             </Link>
           </li>
-          {/*
           <li>
             <Link href="/">
               <a className = {styles.spaceRight}>THE MATH GURU</a>
             </Link>
           </li>
-          */}
           <li>
             <Link href="/">
               <a className = {styles.spaceRight}>Home</a>
@@ -38,43 +36,10 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            {/*
-            <Link href="/pricing">
-              <a>Pricing</a>
-            </Link>
-            */}
-          </li>
-          <li>
             <Link href="/become">
               <a className = {styles.spaceRight}>Become</a>
             </Link>
           </li>
-          {/*
-          <li>
-            <Link href="/courses">
-              <a className = {styles.spaceRight}>Courses</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog">
-              <a>Blog</a>
-            </Link>
-          </li>
-          */}
-          {/*
-          <li>
-            <Link href="/contact">
-              <a>Contact</a>
-            </Link>
-          </li>
-          */}
-          {/*
-          <li>
-            <Link href="/login">
-              <a>Login</a>
-            </Link>
-          </li>
-          */}
         </ul>
       </nav>
     </header>

@@ -5,7 +5,7 @@ export default function JokeBlock() {
     const [joke, setJoke] = useState("")
 
     useEffect(() => {
-        fetch('/api/joke')
+        fetch('/netlify/functions/joke')
         .then(res => res.json())
         .then(jokeJSON=> {
             setJoke(jokeJSON)
