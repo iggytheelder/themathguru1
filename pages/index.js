@@ -18,6 +18,9 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
+        <span className="material-symbols-outlined" style={{transform: "translateY(-4px)", fontSize: "40px"}}>
+          self_improvement
+        </span> {' '}
         <p style={{backgroundColor: "lightblue", textAlign: "center", borderRadius: "20px", padding: "10px"}}>
           To get started, text Caleb at<br/><b>(480) 420 - 8218</b>.
         </p>
