@@ -18,8 +18,8 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
-        <p style={{backgroundColor: "lightblue", textAlign: "center", borderRadius: "20px", padding: "10px"}}>
-          To get started, text Caleb at<br/><b>(480) 420 - 8218</b>.
+        <p style={{backgroundColor: "cornflowerblue", textAlign: "center", borderRadius: "20px", padding: "15px", color: "white", fontWeight: ""}}>
+          To get started, text Caleb at<br/><b>(480) 420 - 8218</b>
         </p>
         <h1 style={{marginTop: "-20px"}}>
           Caleb, The Math Guru
