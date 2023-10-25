@@ -43,7 +43,7 @@ export default function Home() {
         <h2 id = "testimonials">Testimonials</h2>
         <p>
           "I have used several math tutors in college and I finally have found a tutor who can explain the topics better than the professor and explain how to do the problem clearly. I was struggling before I started working with Caleb and now I am extremely confident with my math skills."
-          - Kyle H., Arizona State University
+          <br/> - Kyle H., Arizona State University
         </p>
         <p>
           "It was the beginning of the semester and I was thinking about dropping my Calculus I class for business majors. But my dad is very supportive of my education goals, so he hired Caleb to help make me feel confident in getting through the math. We met every week and Caleb make sure I got my homework done. I found his studying tips and tricks very helpful. I actually didn't need to take the last exam. Then I aced the final. I got an A+ in the class. Thanks Caleb!"
@@ -85,11 +85,14 @@ export default function Home() {
         <p>
           If you do 3+ hours per week, you will be billed $80 per hour (saving you $15 per hour).
           For example, say you do 60-minute 4 sessions within a week, you will get billed $95, $95, $40, and $80.
+          I consider a week to be Monday through Sunday.
         </p>
         <h2 id = "referrals">Referrals</h2>
         <p>
-          Whenever a new student that you've referred does their first session with us,
-          you get 50% off your next discount.
+          Whenever a new student that you've referred does their first session with me,
+          I'll give you 50% off your next discount. Unlimited referrals. If you refer 10 people, your next 10 sessions will be half off.
+          Let me know if you are interested in referring. I have suggestions and can send you my flyer, business cards, ect.
+          I appreciate your willingness to share my math tutoring service.
         </p>
         <h2 id = "contact">Contact</h2>
         <p>
