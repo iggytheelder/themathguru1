@@ -21,15 +21,24 @@ export default function Home() {
         <p style={{backgroundColor: "cornflowerblue", textAlign: "center", borderRadius: "20px", padding: "15px", color: "white", fontWeight: ""}}>
           To get started, text Caleb at<br/><b>(480) 420 - 8218</b>
         </p>
-        <h1 style={{marginTop: "-20px"}}>
+        <h1 style={{marginTop: "-20px"}} className = "center">
           Caleb, The Math Guru
           <span className="material-symbols-outlined" style={{transform: "translateY(20px)", fontSize: "80px"}}>
             self_improvement
           </span> {' '}
         </h1>
-        <p>
+        <p className = "center">
           <i>The office hours your math professor can't offer.</i>
         </p>
+        <p className = "center">
+          <a href="#summary">Summary</a>{' '}&bull;{' '}
+          <a href="#testimonials">Testimonials</a>{' '}&bull;{' '}
+          <a href="#how-it-works">How It Works</a>{' '}&bull;{' '}
+          <a href="#pricing">Pricing</a>{' '}&bull;{' '}
+          <a href="#referrals">Referrals</a>{' '}&bull;{' '}
+          <a href="#contact">Contact</a>
+        </p>
+        <h2 id = "summary">Summary</h2>
         <p>
           Caleb, The Math Guru is a private math tutor.
         </p>
@@ -81,11 +90,6 @@ export default function Home() {
         <h2 id = "pricing">Pricing</h2>
         <p>
           $95 per hour
-        </p>
-        <p>
-          If you do 3+ hours per week, you will be billed $80 per hour (saving you $15 per hour).
-          For example, say you do 60-minute 4 sessions within a week, you will get billed $95, $95, $40, and $80.
-          I consider a week to be Monday through Sunday.
         </p>
         <h2 id = "referrals">Referrals</h2>
         <p>
