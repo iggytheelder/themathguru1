@@ -38,7 +38,7 @@ input {
 button {
   font-size: 20px;
   border: none;
-  background-color: rgba(10,10,10,0.05);
+  background-color: blue;
   font-weight: 500;
   box-shadow: none;
   padding: 10px;

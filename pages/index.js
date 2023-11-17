@@ -11,7 +11,21 @@ import Image from 'next/image'
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
 
+
+
 export default function Home() {
+  function intro(event){
+    let btn = event.target;
+    let audio = document.getElementById('intro');
+    if (btn.innerHTML == "Play Audio Intro") {
+      audio.play();
+      btn.innerHTML = "Pause Audio Intro";
+    } else {
+      audio.pause();
+      btn.innerHTML = "Play Audio Intro";
+    }
+  }
+
   return (
     <>
       <Head>
@@ -38,13 +52,19 @@ export default function Home() {
           <a href="#referrals">Referrals</a>{' '}&bull;{' '}
           <a href="#contact">Contact</a>
         </p>
+        <p className = "center">
+          <audio src="/intro.m4a" id = "intro"/>
+          <button onClick={intro} style={{backgroundColor: "cornflowerblue", color: "white", fontWeight: "bold", padding: "15px", border: "4px solid black"}}>
+            Play Audio Intro
+          </button>
+        </p>
         <h2 id = "summary">Summary</h2>
         <p>
-          Caleb, The Math Guru is a private math tutor.
+          Caleb, The Math Guru is a private college math tutor.
         </p>
         <p>
           You can rest assured because Caleb has a Bachelor's in mathematics, have graduate school experience, and taught math to middle school students.
-          He has completed 100+ hours of math tutoring.
+          He has completed 500+ hours of math tutoring.
         </p>
         <p>
           Caleb is available 10 hours a day, 5 days a week, and some weekends.
