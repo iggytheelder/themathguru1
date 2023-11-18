@@ -109,7 +109,7 @@ export default function Home() {
         </p>
         <h2 id = "pricing">Pricing</h2>
         <p>
-          $95 per hour
+          $135 per hour
         </p>
         <h2 id = "referrals">Referrals</h2>
         <p>
