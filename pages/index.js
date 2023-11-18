@@ -111,6 +111,9 @@ export default function Home() {
         <p>
           $135 per hour
         </p>
+        <p>
+          Tutoring sessions are typically an hour, but they can be longer if needed.
+        </p>
         <h2 id = "referrals">Referrals</h2>
         <p>
           Whenever a new student that you've referred does their first session with me,
