@@ -11,8 +11,6 @@ import Image from 'next/image'
 import FeedbackForm from "@components/FeedbackForm";
 import JokeBlock from "@components/JokeBlock";
 
-
-
 export default function Home() {
   function intro(event){
     let btn = event.target;
@@ -32,8 +30,8 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
-        <p style={{backgroundColor: "cornflowerblue", textAlign: "center", borderRadius: "20px", padding: "15px", color: "white", fontWeight: ""}}>
-          To get started, text Caleb at<br/><b>(480) 420 - 8218</b>
+        <p style={{backgroundColor: "cornflowerblue", textAlign: "center", borderRadius: "10px", padding: "10px", color: "white", fontWeight: ""}}>
+          Text Caleb at <b>(480) 420 - 8218</b>
         </p>
         <h1 style={{marginTop: "-20px"}} className = "center">
           Caleb, The Math Guru
@@ -54,7 +52,7 @@ export default function Home() {
         </p>
         <p className = "center">
           <audio src="/intro.m4a" id = "intro"/>
-          <button onClick={intro} style={{backgroundColor: "cornflowerblue", color: "white", fontWeight: "bold", padding: "15px", border: "4px solid black"}}>
+          <button onClick={intro}>
             Play Audio Intro
           </button>
         </p>
@@ -109,15 +107,66 @@ export default function Home() {
         </p>
         <h2 id = "pricing">Pricing</h2>
         <p>
-          $135 per hour
+          Tutoring sessions are an hour long.
         </p>
+        <p style={{display: "flex", justifyContent: "space-between"}}>
+          <span>
+          Buy one (1) session at a time:
+          </span>
+          <span>
+            $135 per session
+          </span>
+        </p>
+        <p style={{display: "flex", justifyContent: "space-between"}}>
+          <span>
+          Buy five (5) sessions in advance:
+          </span>
+          <span>
+            $130 per session
+          </span>
+        </p>
+        <p style={{display: "flex", justifyContent: "space-between"}}>
+          <span>
+          Buy ten (10) sessions in advance:
+          </span>
+          <span>
+            $120 per session
+          </span>
+        </p>
+        <p style={{display: "flex", justifyContent: "space-between"}}>
+          <span>
+          Buy twenty (20) sessions in advance:
+          </span>
+          <span>
+            $105 per session
+          </span>
+        </p>
+        <div>
+        <table>
+          <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+        </table>
+        </div>
         <p>
-          Tutoring sessions are typically an hour, but they can be longer if needed.
+          Refund policy: When you buy in advance, any sessions you use will be reduced at
         </p>
         <h2 id = "referrals">Referrals</h2>
         <p>
           Whenever a new student that you've referred does their first session with me,
-          I'll give you 50% off your next discount. Unlimited referrals. If you refer 10 people, your next 10 sessions will be half off.
+          I'll give you $20 towards sessions. Unlimited referrals. If you refer 10 people, your next 10 sessions will be half off.
           Let me know if you are interested in referring. I have suggestions and can send you my flyer, business cards, ect.
           I appreciate your willingness to share my math tutoring service.
         </p>
