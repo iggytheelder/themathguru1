@@ -141,10 +141,18 @@ export default function Home() {
             </p>
             <p style={{display: "flex", justifyContent: "space-between"}}>
               <span>
+              3
+              </span>
+              <span>
+              $125
+              </span>
+            </p>
+            <p style={{display: "flex", justifyContent: "space-between"}}>
+              <span>
               5
               </span>
               <span>
-              $130
+              $115
               </span>
             </p>
             <p style={{display: "flex", justifyContent: "space-between"}}>
@@ -152,20 +160,12 @@ export default function Home() {
               10
               </span>
               <span>
-              $120
-              </span>
-            </p>
-            <p style={{display: "flex", justifyContent: "space-between"}}>
-              <span style={{fontWeight: "bold"}}>
-              20
-              </span>
-              <span style={{fontWeight: "bold"}}>
               $95
               </span>
             </p>
           </div>
           <p>
-            The best deal is 20 sessions for $95 per session.
+            The best deal is 10 sessions for $95 per session.
           </p>
         <div>
         </div>
