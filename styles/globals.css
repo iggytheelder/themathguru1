@@ -125,3 +125,12 @@ blockquote cite {
   color: black;
   border: 6px solid cornflowerblue;
 }
+
+.banner {
+  background-color: cornflowerblue;
+  text-align: center;
+  border-radius: 0px;
+  padding: 10px;
+  color: white;
+  font-weight: none;
+}

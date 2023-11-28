@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
-        <p style={{backgroundColor: "cornflowerblue", textAlign: "center", borderRadius: "10px", padding: "10px", color: "white", fontWeight: ""}}>
+        <p className = "banner">
           Text Caleb at <b>(480) 420 - 8218</b>
         </p>
         <h1 style={{marginTop: "-20px"}} className = "center">
@@ -63,7 +63,7 @@ export default function Home() {
         </p>
         <p>
           You can rest assured because Caleb has a Bachelor's in mathematics, have graduate school experience, and taught math to middle school students.
-          He has completed 500+ hours of math tutoring.
+          He has completed 2000+ hours of math tutoring.
         </p>
         <p>
           Caleb is available 10 hours a day, 5 days a week, and some weekends.
@@ -125,10 +125,10 @@ export default function Home() {
             </h3>
             <p style={{display: "flex", justifyContent: "space-between"}}>
               <span>
-              Sessions
+                <b>Sessions</b>
               </span>
               <span>
-              Price / Session
+                <b>Price / Session</b>
               </span>
             </p>
             <p style={{display: "flex", justifyContent: "space-between"}}>
