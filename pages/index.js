@@ -30,8 +30,18 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
+        <p>
+        Hi,<br/><br/>
+        I've moved my website to <a href="https://mathyness.com">Mathyness.com</a>.<br/><br/>
+        Please go there if you're interested in hiring a private math tutor.<br/><br/>
+        Thank you,<br/><br/>
+        ~ Caleb
+        </p>
+        {/*
         <p className = "banner">
-          Text Caleb at <b>(480) 420 - 8218</b>
+          Hi, I've moved my website to <a>Mathyness.com</a>.
+          Please go there if you're interested in finding a private math tutor.<br/><br/>
+          ~ Caleb
         </p>
         <h1 style={{marginTop: "-20px"}} className = "center">
           Caleb, The Math Guru
@@ -193,9 +203,6 @@ export default function Home() {
         <p>
           Call or text Caleb at <b>(480) 420 - 8218</b> for inquires about math tutoring. All other communication can be done by email at caleb@themath.guru
         </p>
-        {/*
-        <FeedbackForm />
-        <JokeBlock/>
         */}
       </Layout>
     </>

@@ -24,7 +24,6 @@ main {
   margin:auto;
   padding: 0rem 0;
   font-size: 25px;
-  margin-bottom: 1000px;
 }
 
 input {
@@ -56,12 +55,13 @@ a {
   color: #FFB6AD;
   font-weight: bold;
   */
-  color: black;
+  color: blue;
+  text-decoration: none;
 }
 
 a:hover {
   cursor: pointer;
-  opacity: .8;
+  text-decoration: underline;
 }
 
 .title {
