@@ -5,6 +5,7 @@ import Layout, { siteTitle } from '@components/Layout'
 import RowWithTwoColumns from '@components/RowWithTwoColumns'
 import StyleImage from '@components/StyleImage'
 import LandingPageDiv from '@components/LandingPageDiv'
+import Banner from '@components/Banner'
 
 import Image from 'next/image'
 
@@ -30,19 +31,15 @@ export default function Home() {
         <meta name="description" content="The Math Guru is a tutoring service like no other."/>
       </Head>
       <Layout>
-        <p>
-        Hi,<br/><br/>
-        I've moved my website to <a href="https://mathyness.com">Mathyness.com</a>.<br/><br/>
-        Please go there if you're interested in hiring a private math tutor.<br/><br/>
-        Thank you,<br/><br/>
-        ~ Caleb
-        </p>
+      <p className = "message">
+      Hi,<br/>
+      I've moved my website to <a href="https://mathyness.com">Mathyness.com</a>.<br/>
+      Please go there if you're interested in hiring a private math tutor.<br/>
+      Thank you,<br/>
+      ~ Caleb
+      </p>
         {/*
-        <p className = "banner">
-          Hi, I've moved my website to <a>Mathyness.com</a>.
-          Please go there if you're interested in finding a private math tutor.<br/><br/>
-          ~ Caleb
-        </p>
+        <Banner/>
         <h1 style={{marginTop: "-20px"}} className = "center">
           Caleb, The Math Guru
           <span className="material-symbols-outlined" style={{transform: "translateY(20px)", fontSize: "80px"}}>
